@@ -37,3 +37,16 @@ C:\Users\user\Desktop\最新整合\Ce\Others\Redis\bin\ServiceStack.Text.xml
 C:\Users\user\Desktop\最新整合\Ce\Others\Redis\obj\Debug\Redis.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\最新整合\Ce\Others\Redis\obj\Debug\Redis.dll
 C:\Users\user\Desktop\最新整合\Ce\Others\Redis\obj\Debug\Redis.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\bin\Redis.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\bin\Redis.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\bin\ServiceStack.Common.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\bin\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\bin\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\bin\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\bin\ServiceStack.Common.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\bin\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\bin\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\bin\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\obj\Debug\Redis.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\obj\Debug\Redis.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Redis\obj\Debug\Redis.pdb

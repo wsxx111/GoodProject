@@ -3,3 +3,8 @@ C:\Users\user\Desktop\最新Ce\Ce\Others\标准委托事件\bin\Debug\标准委�
 C:\Users\user\Desktop\最新Ce\Ce\Others\标准委托事件\obj\Debug\标准委托事件.exe
 C:\Users\user\Desktop\最新Ce\Ce\Others\标准委托事件\obj\Debug\标准委托事件.pdb
 C:\Users\user\Desktop\最新Ce\Ce\Others\标准委托事件\obj\Debug\标准委托事件.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\标准委托事件\bin\Debug\标准委托事件.exe
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\标准委托事件\bin\Debug\标准委托事件.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\标准委托事件\obj\Debug\标准委托事件.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\标准委托事件\obj\Debug\标准委托事件.exe
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\标准委托事件\obj\Debug\标准委托事件.pdb

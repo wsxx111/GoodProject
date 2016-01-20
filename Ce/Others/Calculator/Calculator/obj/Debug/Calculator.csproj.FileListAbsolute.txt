@@ -15,3 +15,8 @@ C:\Users\user\Desktop\最新Ce\Ce\Others\Calculator\Calculator\bin\Debug\Calcula
 C:\Users\user\Desktop\最新Ce\Ce\Others\Calculator\Calculator\bin\Debug\Calculator.pdb
 C:\Users\user\Desktop\最新Ce\Ce\Others\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\user\Desktop\最新Ce\Ce\Others\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Calculator\Calculator\obj\Debug\Calculator.pdb

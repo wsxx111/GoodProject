@@ -44,3 +44,16 @@ C:\Users\user\Desktop\最新整合\Ce\Stategy\ConfigStrategy\bin\Debug\ServiceSt
 C:\Users\user\Desktop\最新整合\Ce\Stategy\ConfigStrategy\obj\Debug\ConfigStrategy.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\最新整合\Ce\Stategy\ConfigStrategy\obj\Debug\ConfigStrategy.dll
 C:\Users\user\Desktop\最新整合\Ce\Stategy\ConfigStrategy\obj\Debug\ConfigStrategy.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\bin\Debug\ConfigStrategy.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\bin\Debug\ConfigStrategy.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\bin\Debug\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\bin\Debug\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\bin\Debug\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\obj\Debug\ConfigStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\obj\Debug\ConfigStrategy.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\ConfigStrategy\obj\Debug\ConfigStrategy.pdb

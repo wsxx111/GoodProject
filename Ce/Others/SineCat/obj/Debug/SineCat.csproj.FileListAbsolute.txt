@@ -6,3 +6,8 @@ C:\Users\user\Desktop\最新Ce\Ce\Others\SineCat\bin\WebApplication1.dll
 C:\Users\user\Desktop\最新Ce\Ce\Others\SineCat\bin\WebApplication1.pdb
 C:\Users\user\Desktop\最新Ce\Ce\Others\SineCat\obj\Debug\WebApplication1.dll
 C:\Users\user\Desktop\最新Ce\Ce\Others\SineCat\obj\Debug\WebApplication1.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\SineCat\bin\WebApplication1.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\SineCat\bin\WebApplication1.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\SineCat\obj\Debug\SineCat.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\SineCat\obj\Debug\WebApplication1.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\SineCat\obj\Debug\WebApplication1.pdb

@@ -15,3 +15,8 @@ C:\Users\user\Desktop\最新Ce\Ce\Others\GameTest\GameTest\bin\Debug\GameTest.ex
 C:\Users\user\Desktop\最新Ce\Ce\Others\GameTest\GameTest\bin\Debug\GameTest.pdb
 C:\Users\user\Desktop\最新Ce\Ce\Others\GameTest\GameTest\obj\Debug\GameTest.exe
 C:\Users\user\Desktop\最新Ce\Ce\Others\GameTest\GameTest\obj\Debug\GameTest.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\GameTest\GameTest\bin\Debug\GameTest.exe.config
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\GameTest\GameTest\bin\Debug\GameTest.exe
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\GameTest\GameTest\bin\Debug\GameTest.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\GameTest\GameTest\obj\Debug\GameTest.exe
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\GameTest\GameTest\obj\Debug\GameTest.pdb

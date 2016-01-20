@@ -2,3 +2,8 @@ C:\Users\user\Desktop\最新Ce\Ce\Others\xin\bin\webconfig.dll
 C:\Users\user\Desktop\最新Ce\Ce\Others\xin\bin\webconfig.pdb
 C:\Users\user\Desktop\最新Ce\Ce\Others\xin\obj\Debug\webconfig.dll
 C:\Users\user\Desktop\最新Ce\Ce\Others\xin\obj\Debug\webconfig.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\xin\bin\webconfig.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\xin\bin\webconfig.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\xin\obj\Debug\WebConfig.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\xin\obj\Debug\webconfig.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\xin\obj\Debug\webconfig.pdb

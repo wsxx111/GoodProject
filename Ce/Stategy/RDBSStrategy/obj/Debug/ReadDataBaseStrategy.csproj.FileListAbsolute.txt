@@ -66,3 +66,16 @@ C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStac
 C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.dll
 C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.pdb

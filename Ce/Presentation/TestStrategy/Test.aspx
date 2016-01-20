@@ -34,6 +34,8 @@
 </html>
 <script type="text/javascript">
     $(function () {
+
+   
        //$("#first").removeAttr("id");
        //alert($("#first").attr("id"));
         //alert($("#second").offset().top);     

@@ -6,3 +6,7 @@ C:\Users\user\Desktop\最新Ce\Ce\Others\Canvas\bin\WebApplication2.dll
 C:\Users\user\Desktop\最新Ce\Ce\Others\Canvas\bin\WebApplication2.pdb
 C:\Users\user\Desktop\最新Ce\Ce\Others\Canvas\obj\Debug\WebApplication2.dll
 C:\Users\user\Desktop\最新Ce\Ce\Others\Canvas\obj\Debug\WebApplication2.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Canvas\bin\WebApplication2.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Canvas\bin\WebApplication2.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Canvas\obj\Debug\WebApplication2.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\Canvas\obj\Debug\WebApplication2.pdb

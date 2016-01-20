@@ -11,3 +11,16 @@ C:\Users\user\Desktop\最新整合\Ce\Stategy\EmailStrategy\bin\Debug\Core.pdb
 C:\Users\user\Desktop\最新整合\Ce\Stategy\EmailStrategy\bin\Debug\ServiceStack.Redis.xml
 C:\Users\user\Desktop\最新整合\Ce\Stategy\EmailStrategy\bin\Debug\ServiceStack.Interfaces.xml
 C:\Users\user\Desktop\最新整合\Ce\Stategy\EmailStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\bin\Debug\EmailStrategy.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\bin\Debug\EmailStrategy.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\bin\Debug\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\bin\Debug\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\bin\Debug\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\obj\Debug\EmailStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\obj\Debug\EmailStrategy.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Stategy\EmailStrategy\obj\Debug\EmailStrategy.pdb
