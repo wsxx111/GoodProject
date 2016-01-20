@@ -1,0 +1,17 @@
+c:\users\user\documents\visual studio 2012\Projects\Calculator\Calculator\bin\Debug\Calculator.exe.config
+c:\users\user\documents\visual studio 2012\Projects\Calculator\Calculator\bin\Debug\Calculator.exe
+c:\users\user\documents\visual studio 2012\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
+c:\users\user\documents\visual studio 2012\Projects\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
+c:\users\user\documents\visual studio 2012\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
+D:\我的\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\我的\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\我的\Calculator\Calculator\obj\Debug\Calculator.pdb
+D:\我的\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\我的\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\我的\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新Ce\Ce\Others\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\user\Desktop\最新Ce\Ce\Others\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\user\Desktop\最新Ce\Ce\Others\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\user\Desktop\最新Ce\Ce\Others\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\user\Desktop\最新Ce\Ce\Others\Calculator\Calculator\obj\Debug\Calculator.pdb

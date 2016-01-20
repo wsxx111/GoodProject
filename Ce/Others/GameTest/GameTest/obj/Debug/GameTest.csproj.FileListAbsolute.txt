@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\GameTest\GameTest\bin\Debug\GameTest.exe.config
+C:\Users\user\Desktop\GameTest\GameTest\obj\Debug\GameTest.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\GameTest\GameTest\bin\Debug\GameTest.exe
+C:\Users\user\Desktop\GameTest\GameTest\bin\Debug\GameTest.pdb
+C:\Users\user\Desktop\GameTest\GameTest\obj\Debug\GameTest.exe
+C:\Users\user\Desktop\GameTest\GameTest\obj\Debug\GameTest.pdb
+D:\我的\GameTest\GameTest\bin\Debug\GameTest.exe.config
+D:\我的\GameTest\GameTest\obj\Debug\GameTest.exe
+D:\我的\GameTest\GameTest\obj\Debug\GameTest.pdb
+D:\我的\GameTest\GameTest\bin\Debug\GameTest.exe
+D:\我的\GameTest\GameTest\bin\Debug\GameTest.pdb
+D:\我的\GameTest\GameTest\obj\Debug\GameTest.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新Ce\Ce\Others\GameTest\GameTest\bin\Debug\GameTest.exe.config
+C:\Users\user\Desktop\最新Ce\Ce\Others\GameTest\GameTest\bin\Debug\GameTest.exe
+C:\Users\user\Desktop\最新Ce\Ce\Others\GameTest\GameTest\bin\Debug\GameTest.pdb
+C:\Users\user\Desktop\最新Ce\Ce\Others\GameTest\GameTest\obj\Debug\GameTest.exe
+C:\Users\user\Desktop\最新Ce\Ce\Others\GameTest\GameTest\obj\Debug\GameTest.pdb

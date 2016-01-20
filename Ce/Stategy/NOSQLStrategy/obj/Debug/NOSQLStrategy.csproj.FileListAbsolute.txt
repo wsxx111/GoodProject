@@ -1,0 +1,45 @@
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\bin\Debug\NOSQLStrategy.dll
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\bin\Debug\NOSQLStrategy.pdb
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\obj\Debug\NOSQLStrategy.dll
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\obj\Debug\NOSQLStrategy.pdb
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\obj\Debug\NOSQLStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\bin\Debug\ServiceStack.Common.dll
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\bin\Debug\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\bin\Debug\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\bin\Debug\ServiceStack.Common.xml
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\bin\Debug\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\最新Ce\Ce\NOSQLStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\bin\Debug\NOSQLStrategy.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\bin\Debug\NOSQLStrategy.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Common.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Common.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\obj\Debug\NOSQLStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\obj\Debug\NOSQLStrategy.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\NOSQLStrategy\obj\Debug\NOSQLStrategy.pdb
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\bin\Debug\NOSQLStrategy.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\bin\Debug\NOSQLStrategy.pdb
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Common.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Common.xml
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\obj\Debug\NOSQLStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\obj\Debug\NOSQLStrategy.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\NOSQLStrategy\obj\Debug\NOSQLStrategy.pdb

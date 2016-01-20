@@ -1,0 +1,14 @@
+Log Entry : 2016年01月19日 19:22:50
+方法:System.Object GetValue(System.String, System.String),异常信息:未将对象引用设置到对象的实例。
+------------------------------------
+Log Entry : 2016年01月19日 19:23:39
+方法:System.Object GetValue(System.String, System.String),异常信息:未将对象引用设置到对象的实例。
+------------------------------------
+Log Entry : 2016年01月19日 19:24:46
+方法:Void Add(System.String),异常信息:参数“addresses”不能是空字符串。
+参数名: addresses
+------------------------------------
+Log Entry : 2016年01月19日 19:27:41
+方法:Void Add(System.String),异常信息:参数“addresses”不能是空字符串。
+参数名: addresses
+------------------------------------

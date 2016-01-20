@@ -1,0 +1,431 @@
+﻿<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <title>bootstrap</title>
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maxmiun-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link href="/Scripts/bootstrap.css" rel="stylesheet" />
+    <style type="text/css">
+        div {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <span class="glyphicon glyphicon-chevron-left"></span>
+
+    <div>按钮</div>
+    <button type="button" class="btn btn-primary" aria-label="Left Align">
+        <span class="glyphicon glyphicon-eur" style="font-size: 20px;" aria-hidden="true">搜索</span>
+    </button>
+
+    <button type="button" class="btn btn-default">
+        默认
+    </button>
+
+    <button type="button" class="btn btn-info btn-xs">
+        信息xs
+    </button>
+
+    <button type="button" class="btn btn-warning active">
+        <span>警告 激活</span>
+    </button>
+
+    <button type="button" class="btn btn-success btn-lg">
+        成功lg 
+    </button>
+
+    <button type="button" class="btn btn-danger btn-sm">
+        <span class="glyphicon glyphicon-eur">危险sm</span>
+    </button>
+
+    <input type="button" class="btn btn-danger" value="input标签(不推荐)" />
+
+    <input type="submit" class="btn btn-danger" value="input提交" />
+
+    <button type="button" class="btn btn-danger btn-sm" disabled="disabled">
+        危险禁用
+    </button>
+
+    <button type="button" class="btn btn-link">
+        链接
+    </button>
+    <a class="btn btn-default" href="#" role="button">button链接</a>
+
+    <div>下拉菜单</div>
+    <div class="dropdown">
+        <button class="btn btn-success" type="button" id="dropdownMenu1" style="width: 100px;" data-toggle="dropdown">
+            选择&nbsp;<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">百日依山近</a>
+            </li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">黄河入海流</a>
+            </li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">欲穷千里目</a>
+            </li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">更上一层楼</a>
+            </li>
+        </ul>
+    </div>
+
+    <div>按钮组</div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-warning">向左</button>
+        <button type="button" class="btn btn-success">中间</button>
+        <button type="button" class="btn btn-danger">向右</button>
+    </div>
+
+    <div>多个按钮组</div>
+    <div class="btn-toolbar" role="toolbar">
+        <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-warning">向左</button>
+            <button type="button" class="btn btn-success">中间</button>
+            <button type="button" class="btn btn-danger">向右</button>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-warning">向左</button>
+            <button type="button" class="btn btn-success">中间</button>
+            <button type="button" class="btn btn-danger">向右</button>
+        </div>
+        <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-warning">向左</button>
+            <button type="button" class="btn btn-success">中间</button>
+            <button type="button" class="btn btn-danger">向右</button>
+        </div>
+        <div class="btn-group btn-group-xs">
+            <button type="button" class="btn btn-warning">向左</button>
+            <button type="button" class="btn btn-success">中间</button>
+            <button type="button" class="btn btn-danger">向右</button>
+        </div>
+    </div>
+
+    <div>嵌套 纵向</div>
+    <div class="btn-group-vertical" style="width: 100px;">
+        <button type="button" class="btn btn-warning">主页</button>
+        <button type="button" class="btn btn-success">设置</button>
+        <button type="button" class="btn btn-primary">查看</button>
+        <button type="button" class="btn btn-warning">分享</button>
+        <div class="btn-group">
+            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown">
+                其他&nbsp;<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">中国</a>
+                </li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">美国</a>
+                </li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation" class="diaabled"><a role="menuitem" tabindex="-1" href="#">法国</a>
+                </li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">南非</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div>justified 左右对齐</div>
+    <div class="btn-group btn-group-justified">
+        <button type="button" class="btn btn-warning">1</button>
+        <button type="button" class="btn btn-success">2</button>
+    </div>
+
+    <div>分裂式的下拉菜单</div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-danger">请选择</button>
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li role="presentation"><a href="#">百日依山近</a>
+            </li>
+            <li role="presentation"><a href="#">黄河入海流</a>
+            </li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a href="#">欲穷千里目</a>
+            </li>
+            <li role="presentation"><a href="#">更上一层楼</a>
+            </li>
+        </ul>
+    </div>
+
+    <div>分裂式的上拉菜单</div>
+    <div class="btn-group dropup">
+        <button type="button" class="btn btn-danger">请选择</button>
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li role="presentation"><a href="#">百日依山近</a>
+            </li>
+            <li role="presentation"><a href="#">黄河入海流</a>
+            </li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a href="#">欲穷千里目</a>
+            </li>
+            <li role="presentation"><a href="#">更上一层楼</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="visible-sm-block bg-primary">
+        我是不是出现了
+    </div>
+
+
+    <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu3" style="width: 100px;" data-toggle="dropdown">
+        选择&nbsp;&nbsp;&nbsp;<span class="caret"></span>
+    </button>
+
+    <div class="container">
+        <div class="row" style="text-align: center">
+            <div class="visible-xs col-xs-1"></div>
+            <div class="col-xs-5 col-sm-3" style="outline: 1px solid red">
+                1        
+            </div>
+            <div class="col-xs-5 col-sm-3" style="outline: 1px solid red">
+                2        
+            </div>
+            <div class="visible-xs col-xs-1"></div>
+
+            <div class="clearfix visible-xs"></div>
+
+            <div class="visible-xs col-xs-1"></div>
+            <div class="col-xs-5 col-sm-3" style="outline: 1px solid red">
+                3       
+            </div>
+            <div class="col-xs-5 col-sm-3" style="outline: 1px solid red">
+                4       
+            </div>
+            <div class="visible-xs col-xs-1"></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3" style="outline: 1px solid red">
+                <h4>第一列</h4>
+                <p>1</p>
+            </div>
+
+            <div class="col-md-9" style="outline: 1px solid red">
+                <h4>第二列 - 分为四个盒子</h4>
+                <div class="row">
+                    <div class="col-md-6" style="outline: 1px solid red">
+                        <p>
+                            a
+                        </p>
+                    </div>
+                    <div class="col-md-6" style="outline: 1px solid red">
+                        <p>
+                            6
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6" style="outline: 1px solid red">
+                        c
+                    </div>
+                    <div class="col-md-6" style="outline: 1px solid red">
+                        d
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <p>排序前</p>
+            <div class="col-md-4" style="outline: 1px solid red">
+                我在左边
+            </div>
+            <div class="col-md-8" style="outline: 1px solid red">
+                我在右边
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <p>排序后</p>
+            <div class="col-md-4 col-md-push-8" style="outline: 1px solid red">
+                我在左边
+            </div>
+            <div class="col-md-8 col-md-pull-4" style="outline: 1px solid red">
+                我在右边
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <p class="blockquote-reverse">对齐文本。该段落会根据屏幕的大小对超出屏幕的文字进行换行</p>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table">
+            <caption>响应式表格布局</caption>
+            <thead>
+                <tr>
+                    <th>产品</th>
+                    <th>付款日期</th>
+                    <th>状态</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="info">
+                    <td>产品1</td>
+                    <td>23/11/2013</td>
+                    <td>待发货</td>
+                </tr>
+                <tr class="success">
+                    <td>产品2</td>
+                    <td>10/11/2013</td>
+                    <td>发货中</td>
+                </tr>
+                <tr>
+                    <td>产品3</td>
+                    <td>20/10/2013</td>
+                    <td>待确认</td>
+                </tr>
+                <tr class="danger">
+                    <td>产品4</td>
+                    <td>20/10/2013</td>
+                    <td>已退货</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <form role="form">
+        <div class="form-group">
+            <label for="name">选择列表</label>
+            <select class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+
+            <label for="name">可多选的选择列表</label>
+            <select multiple class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+    </form>
+
+    <form role="form">
+        <div class="form-group">
+            <input class="form-control input-lg" type="text"
+                placeholder=".input-lg">
+        </div>
+
+        <div class="form-group">
+            <input class="form-control" type="text" placeholder="默认输入">
+        </div>
+
+        <div class="form-group">
+            <input class="form-control input-sm" type="text"
+                placeholder=".input-sm">
+        </div>
+        <div class="form-group">
+        </div>
+        <div class="form-group">
+            <select class="form-control input-lg">
+                <option value="">.input-lg</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <select class="form-control">
+                <option value="">默认选择</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <select class="form-control input-sm">
+                <option value="">.input-sm</option>
+            </select>
+        </div>
+
+        <form role="form">
+            <span>帮助文本实例</span>
+            <input class="form-control" type="text" placeholder="">
+            <span class="help-block">一个较长的帮助文本块，超过一行，
+   需要扩展到下一行。本实例中的帮助文本总共有两行。</span>
+        </form>
+
+        <div class="row">
+            <div class="col-lg-2">
+                <input type="text" class="form-control" placeholder=".col-lg-2">
+            </div>
+            <div class="col-lg-3">
+                <input type="text" class="form-control" placeholder=".col-lg-3">
+            </div>
+            <div class="col-lg-4">
+                <input type="text" class="form-control" placeholder=".col-lg-4">
+            </div>
+        </div>
+    </form>
+
+    <div class="container">
+        <h2>图片</h2>
+        <p>.img-responsive类让图片支持响应式，将很好地扩展到父元素 (通过改变窗口大小查看效果):</p>
+        <img src="cinqueterre.jpg" class="img-responsive" alt="Cinque Terre" width="304" height="236">
+    </div>
+
+    <button type="button" class="btn btn-primary btn-lg">
+        <span class="glyphicon glyphicon-user"></span>User
+    </button>
+
+    @*<ul class="nav nav-stacked" role="tablist">
+    <ul class="nav nav-tabs" role="tablist">*@
+    <ul class="nav nav-pills" role="tablist">
+        <li role="presentation" class="active"><a href="#">主页</a></li>
+        <li role="presentation"><a href="#">分享</a></li>
+        <li role="presentation"><a href="#">内容</a></li>
+    </ul>
+
+
+    导航
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+
+            <div class="container-header">
+                <a class="navbar-band" href="#">
+                    <span >Brand</span>
+                </a>
+            </div>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search" />
+                </div>
+                <button type="submit" class="btn btn-default">提交</button>
+            </form>
+             <button type="button" class="btn btn-default">动动</button>
+            <p class="navbar-text navbar-right">的撒的</p>
+        </div>
+    </nav>
+
+    <ul class="breadcrumb">
+        <li><a href="#">主页1</a></li>
+         <li><a href="#">主页2</a></li>
+         <li><a href="#">主页3</a></li>
+         <li><a href="#">主页4</a></li>
+    </ul>
+
+
+    <script src="/Scripts/jquery-1.7.1.js"></script>
+    <script src="/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/bootstrap-dropdown.js"></script>
+</body>
+</html>

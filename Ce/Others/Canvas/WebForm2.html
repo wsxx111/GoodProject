@@ -1,0 +1,68 @@
+﻿
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style type="text/css">
+        .origin_1{
+    -webkit-transform-origin:center center;
+    -moz-transform-origin:center center;
+    -webkit-transition:0.5s ease all;
+    -ms-transition:0.5s ease all;
+    -moz-transition:0.5s ease all;
+    position:absolute;
+    left:10px;
+    top:50px;
+}
+.origin_2{
+    -webkit-transform-origin:left top;
+    -moz-transform-origin:left top;
+    -webkit-transition:0.5s ease all;
+    -moz-transition:0.5s ease all;
+    -ms-transition:0.5s ease all;
+    position:absolute;
+    left:250px;
+    top:50px;
+}
+.origin_3{
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -webkit-transition:0.5s ease all;
+    -moz-transition:0.5s ease all;
+    -ms-transition:0.5s ease all;
+    position:absolute;
+    left:480px;
+    top:50px;
+}
+.origin_4{
+    -webkit-transform-origin:20px 60px;
+    -moz-transform-origin:20px 60px;
+    -webkit-transition:0.5s ease all;
+    -moz-transition:0.5s ease all;
+    -ms-transition:0.5s ease all;
+    position:absolute;
+    left:250px;
+    top:160px;
+}
+.origin_1:hover,
+.origin_2:hover,
+.origin_3:hover,
+.origin_4:hover{
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+     -ms-transform:rotate(45deg);
+}                        
+                        
+    </style>
+</head>
+
+<body>
+ <div class="demo_box origin_1">在中心点旋转45度</div>
+<div class="demo_box origin_2">在左上角旋转45度</div>
+<div class="demo_box origin_3">用百分百值来来设置旋转点旋转45度</div>
+<div class="demo_box origin_4">用长度值来设置旋转点旋转45度</div>                        
+                        
+</body>
+</html>

@@ -1,0 +1,9 @@
+Log Entry : 2015年11月10日 14:00:32
+登录成功
+------------------------------------
+Log Entry : 2015年11月10日 14:44:15
+方法:Entity.IReadDBStrategy get_ReadDatabase(),异常信息:“DataAccess.SysData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月10日 14:46:56
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:对象名 'bsp_bannedips' 无效。
+------------------------------------

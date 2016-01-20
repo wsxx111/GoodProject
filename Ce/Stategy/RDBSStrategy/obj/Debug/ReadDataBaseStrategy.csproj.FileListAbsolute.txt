@@ -1,0 +1,68 @@
+C:\Users\89313\Desktop\Ce\RDBSStrategy\bin\Debug\Entity.dll
+C:\Users\89313\Desktop\Ce\RDBSStrategy\bin\Debug\Utility.dll
+C:\Users\89313\Desktop\Ce\RDBSStrategy\bin\Debug\Entity.pdb
+C:\Users\89313\Desktop\Ce\RDBSStrategy\bin\Debug\Utility.pdb
+C:\Users\89313\Desktop\Ce\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.csprojResolveAssemblyReference.cache
+C:\Users\89313\Desktop\Ce\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.dll
+C:\Users\89313\Desktop\Ce\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.pdb
+C:\Users\89313\Desktop\Ce\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.dll
+C:\Users\89313\Desktop\Ce\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.pdb
+C:\Users\89313\Desktop\Ce\RDBSStrategy\bin\Debug\DataAccess.dll
+C:\Users\89313\Desktop\Ce\RDBSStrategy\bin\Debug\DataAccess.pdb
+C:\Users\user\Desktop\Ce\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\Ce\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\Ce\RDBSStrategy\bin\Debug\Entity.dll
+C:\Users\user\Desktop\Ce\RDBSStrategy\bin\Debug\Utility.dll
+C:\Users\user\Desktop\Ce\RDBSStrategy\bin\Debug\Entity.pdb
+C:\Users\user\Desktop\Ce\RDBSStrategy\bin\Debug\Utility.pdb
+C:\Users\user\Desktop\Ce\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Ce\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\Ce\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\Ce\RDBSStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\Ce\RDBSStrategy\bin\Debug\Core.pdb
+C:\Users\89313\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.dll
+C:\Users\89313\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.pdb
+C:\Users\89313\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\Core.dll
+C:\Users\89313\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\Core.pdb
+C:\Users\89313\Desktop\最新Ce\Ce\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.csprojResolveAssemblyReference.cache
+C:\Users\89313\Desktop\最新Ce\Ce\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.dll
+C:\Users\89313\Desktop\最新Ce\Ce\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新Ce\Ce\RDBSStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\bin\Debug\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\RDBSStrategy\obj\Debug\ReadDataBaseStrategy.pdb

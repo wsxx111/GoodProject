@@ -1,0 +1,33 @@
+Log Entry : 2015年11月21日 11:01:42
+方法:Entity.IReadDBStrategy get_ReadDatabase(),异常信息:“Core.SysData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月21日 12:16:17
+方法:,异常信息:“Core.SysData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月21日 12:17:21
+方法:Core.IReadDBStrategy get_ReadDatabase(),异常信息:“Core.SysData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月21日 13:08:15
+方法:,异常信息:“Core.RDDBData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月21日 13:10:55
+方法:Core.IReadDBStrategy get_ReadDatabase(),异常信息:“Core.RDDBData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月21日 13:11:37
+方法:Core.IReadDBStrategy get_ReadDatabase(),异常信息:“Core.RDDBData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月21日 13:18:08
+方法:Core.IReadDBStrategy get_ReadDatabase(),异常信息:“Core.RDDBData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月21日 13:20:32
+方法:Core.IReadDBStrategy get_ReadDatabase(),异常信息:“Core.RDDBData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月21日 13:24:59
+方法:Core.IReadDBStrategy get_ReadDatabase(),异常信息:“Core.RDDBData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月21日 13:26:35
+方法:Core.IReadDBStrategy get_ReadDatabase(),异常信息:“Core.RDDBData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月21日 13:28:27
+方法:System.String get_RDBSTablePre(),异常信息:“Core.Helper.DBUniversalHelper”的类型初始值设定项引发异常。
+------------------------------------

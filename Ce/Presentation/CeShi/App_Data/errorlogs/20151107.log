@@ -1,0 +1,151 @@
+Log Entry : 2015年11月07日 11:40:13
+方法:Entity.IReadDBStrategy get_ReadDatabase(),异常信息:“DataAccess.SysData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月07日 11:45:22
+方法:Entity.IReadDBStrategy get_ReadDatabase(),异常信息:“DataAccess.SysData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月07日 11:46:53
+方法:Entity.IReadDBStrategy get_ReadDatabase(),异常信息:“DataAccess.SysData”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月07日 11:51:50
+方法:System.String get_RDBSTablePre(),异常信息:“DataAccess.DBConHelper”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月07日 11:53:31
+方法:System.String get_RDBSTablePre(),异常信息:“DataAccess.DBConHelper”的类型初始值设定项引发异常。
+------------------------------------
+Log Entry : 2015年11月07日 15:04:58
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:05:26
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:06:26
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:06:55
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:07:26
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'WORKGROUP\WANG$' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:07:27
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'WORKGROUP\WANG$' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:07:28
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'WORKGROUP\WANG$' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:07:29
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'WORKGROUP\WANG$' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:07:30
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'WORKGROUP\WANG$' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:07:30
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'WORKGROUP\WANG$' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:07:31
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'WORKGROUP\WANG$' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:07:31
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'WORKGROUP\WANG$' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:08:01
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'NT AUTHORITY\LOCAL SERVICE' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:08:01
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'NT AUTHORITY\LOCAL SERVICE' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:08:02
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'NT AUTHORITY\LOCAL SERVICE' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:08:22
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:无法打开登录所请求的数据库 "brnshop"。登录失败。
+用户 'NT AUTHORITY\SYSTEM' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:09:03
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:09:04
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:09:05
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:09:05
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:09:05
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:09:05
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:09:05
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:09:06
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:09:06
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:09:06
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:09:06
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:09:31
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:12:02
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+------------------------------------
+Log Entry : 2015年11月07日 15:12:18
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:14:17
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:17:04
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:20:24
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:20:40
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:20:41
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:20:41
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:20:41
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:20:41
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:20:41
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:20:42
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:20:42
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:20:42
+方法:Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 15:20:57
+方法:Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]),异常信息:用户 'IIS APPPOOL\MyWeb' 登录失败。
+------------------------------------
+Log Entry : 2015年11月07日 22:58:42
+方法:System.Data.IDataReader GetBannedIPList(),异常信息:Could not load file or assembly 'Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. 系统找不到指定的文件。
+------------------------------------
+Log Entry : 2015年11月07日 22:58:42
+方法:System.Data.IDataReader GetBannedIPList(),异常信息:Could not load file or assembly 'Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. 系统找不到指定的文件。
+------------------------------------

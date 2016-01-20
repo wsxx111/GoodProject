@@ -1,0 +1,17 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, hr, pre, code, form, input, button, fieldset, textarea, p, blockquote, th, td {margin: 0;padding: 0;}
+* {font-family: Î¢ÈíÑÅºÚ,"Microsoft YaHei",ºÚÌå,STHeiti,Hei;}
+li {list-style: none outside none;}
+.form li {padding: 6px 3px;}
+.form .title {color: #484848;display: inline-block;font-size: 14px;font-weight: 700;padding-right: 30px;text-align: right;width: 80px;}
+.form .text {background: url("/Content/Images/login.png") repeat scroll 0 -45px transparent;display: inline-block;height: 32px;padding: 0 10px;vertical-align: middle;width: 255px;}
+.form .text input {border: 0 none;color: #000;height: 18px;margin-top: 7px;width: 230px;}
+.form .select {height: 32px;vertical-align: middle;width: 255px;}
+.form .btn_login {border-top: 1px solid #999999;height: 43px;text-align:right;margin-right:50px}
+.form .btn_logint input {background: url("/Content/Images/login.png") repeat scroll -276px -45px transparent;border: 0 none;cursor: pointer;height: 29px;margin: 15px 0 0 313px;width: 72px;}
+.form .btn_logins input:hover {background: url(/Content/Images/login.png) -276px -78px; }
+.login_box_bg {background: url("/Content/Images/login_bg.jpg") no-repeat scroll center 0 #C7CACF;}
+.login_logo {margin: 180px auto 15px;width: 462px;height:28px;}
+.login_box {margin: 0 auto;width: 462px;}
+.login_t {background: url("/Content/Images/login.png") repeat scroll 0 0 transparent;height: 38px;overflow: hidden;text-indent: -9999px;width: 462px;}
+.login_c {background: url("/Content/Images/login.png") repeat scroll -463px 0 transparent;padding: 10px 0 0;width: 462px;}
+.login_b {background: url("/Content/Images/login.png") repeat scroll 0 -39px transparent;height: 5px;overflow: hidden;width: 462px;}

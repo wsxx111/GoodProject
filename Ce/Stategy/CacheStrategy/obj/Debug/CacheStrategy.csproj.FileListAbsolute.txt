@@ -1,0 +1,53 @@
+C:\Users\user\Desktop\Ce\CacheStrategy\obj\Debug\CacheStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Ce\CacheStrategy\bin\Debug\CacheStrategy.dll
+C:\Users\user\Desktop\Ce\CacheStrategy\bin\Debug\CacheStrategy.pdb
+C:\Users\user\Desktop\Ce\CacheStrategy\bin\Debug\Entity.dll
+C:\Users\user\Desktop\Ce\CacheStrategy\bin\Debug\Entity.pdb
+C:\Users\user\Desktop\Ce\CacheStrategy\obj\Debug\CacheStrategy.dll
+C:\Users\user\Desktop\Ce\CacheStrategy\obj\Debug\CacheStrategy.pdb
+C:\Users\89313\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\CacheStrategy.dll
+C:\Users\89313\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\CacheStrategy.pdb
+C:\Users\89313\Desktop\最新Ce\Ce\CacheStrategy\obj\Debug\CacheStrategy.csprojResolveAssemblyReference.cache
+C:\Users\89313\Desktop\最新Ce\Ce\CacheStrategy\obj\Debug\CacheStrategy.dll
+C:\Users\89313\Desktop\最新Ce\Ce\CacheStrategy\obj\Debug\CacheStrategy.pdb
+C:\Users\89313\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\Core.dll
+C:\Users\89313\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\CacheStrategy.dll
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\CacheStrategy.pdb
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\obj\Debug\CacheStrategy.dll
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\obj\Debug\CacheStrategy.pdb
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\obj\Debug\CacheStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新Ce\Ce\CacheStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\bin\Debug\CacheStrategy.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\bin\Debug\CacheStrategy.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\bin\Debug\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\bin\Debug\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\bin\Debug\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\obj\Debug\CacheStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\obj\Debug\CacheStrategy.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Stategy\CacheStrategy\obj\Debug\CacheStrategy.pdb
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\bin\Debug\CacheStrategy.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\bin\Debug\CacheStrategy.pdb
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\bin\Debug\Core.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\bin\Debug\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\bin\Debug\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\bin\Debug\Core.pdb
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\bin\Debug\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\bin\Debug\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\obj\Debug\CacheStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\obj\Debug\CacheStrategy.dll
+C:\Users\user\Desktop\最新整合\Ce\Stategy\CacheStrategy\obj\Debug\CacheStrategy.pdb

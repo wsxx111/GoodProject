@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\user\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\user\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\user\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\user\Desktop\最新Ce\Ce\Others\Canvas\bin\WebApplication2.dll
+C:\Users\user\Desktop\最新Ce\Ce\Others\Canvas\bin\WebApplication2.pdb
+C:\Users\user\Desktop\最新Ce\Ce\Others\Canvas\obj\Debug\WebApplication2.dll
+C:\Users\user\Desktop\最新Ce\Ce\Others\Canvas\obj\Debug\WebApplication2.pdb

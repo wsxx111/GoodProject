@@ -1,0 +1,208 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View1</title>
+    <link href="/Resources/Scripts/Upload/uploadify.css" rel="stylesheet" />       
+    <script src="/Resources/Scripts/jquery-1.7.1.min.js"></script>   
+    @*<script src="/Resources/Scripts/Upload/jquery.swfobject.js"></script>*@
+    <script src="/Resources/Scripts/Upload/jquery.uploadify.min.js"></script>
+</head>
+<body>
+    <div>
+        <input id="file_upload"  type="file" class="uploadify" style="width: 60px; height: 30px" />      
+    </div>
+    <div>        
+        <input id="CancelFirst"  type="button"  value="取消" onclick="javascript: $('#file_upload').uploadify('cancel')" style="width: 80px; height: 30px;" />
+         <input id="BtnClear"  type="button"  value="清空队列" onclick="javascript: $('#file_upload').uploadify('cancel', '*')" style="width: 80px; height: 30px;" />
+         <input id="BtnStartUpload"  type="button"  value="逐个上传" onclick="javascript: $('#file_upload').uploadify('upload')" style="width: 80px; height: 30px;" />
+         <input id="BtnUploadAll"  type="button"  value="上传所有" onclick="javascript: $('#file_upload').uploadify('upload', '*')" style="width: 80px; height: 30px;" />        
+         <input id="BtnParseUpload"  type="button"  value="停止上传" onclick="javascript: $('#file_upload').uploadify('stop')" style="width: 80px; height: 30px;" />  
+         <input id="BtnDisable"  type="button"  value="禁用按钮" onclick="javascript: $('#file_upload').uploadify('disable', true)" style="width: 80px; height: 30px;" />
+         <input id="BtnEnable"  type="button"  value="启用按钮" onclick="javascript: $('#file_upload').uploadify('disable', false)" style="width: 80px; height: 30px;" />                 
+        <input id="BtnDistroy"  type="button"  value="销毁" onclick="javascript: $('#file_upload').uploadify('destroy')" style="width: 80px; height: 30px;" />  
+    </div>
+    <div>
+        <img src="#" id="PrewPic" style="width:170px;" />
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    //执行上传
+    $(function () {
+        $('#file_upload').uploadify({
+            'id': jQuery(this).attr('id'),          //绑定的input的ID
+            'swf': '/Resources/Scripts/Upload/uploadify.swf',
+            'buttonCursor': 'pointer',   //上传鼠标hover后Cursor的形状
+            'uploader': '/UploadImg/SaveUploadSource',    // 上传文件触发的url
+            'scriptAccess': 'always',
+            'height': 30,       //上传按钮的高和宽
+            'width': 120,
+            'buttonText': '浏览',
+            'fileTypeDesc': '打开图片',   //允许上传的文件类型的描述，在弹出的文件选择框里会显示
+            'fileTypeExts': '*.png;*.jpg;*.bmp;*.gif',   //允许上传的文件类型，限制弹出文件选择框里能选择的文件
+            'fileSizeLimit': '71680KB',      //文件的极限大小，以字节为单位，0为不限制。1MB:1*1024*1024
+            'method': 'post',            //和后台交互的方式：post/get
+            'formData': {},       //JSON格式上传每个文件的同时提交到服务器的额外数据，可在’onUploadStart’事件中使用’settings’方法动态设置。
+            'preventCaching': true,  //如果为true，则每次上传文件时自动加上一串随机字符串参数，防止URL缓存影响上传结果
+            'progressData': 'all', // 'percentage''speed''all'//队列中显示文件上传进度的方式：all-上传速度+百分比，percentage-百分比，speed-上传速度
+
+            'multi': false,     //是否能选择多个文件        
+            'auto': false,
+            'removeCompleted': false,
+            'timeoutuploadLimit': 999,   //能同时上传的文件数目
+            'uploadLimit': 11,      //最大上传文件数量，如果达到或超出此限制将会触发onUploadError事件。
+            'queueSizeLimit': 3,         //队列中允许的最大文件数目
+            'cancelImg': 'http://jk9.photo.fang.com/Album/uploadjs/images/icons02.gif',
+            'onDialogOpen': function () {        //当选择文件对话框打开时触发               
+            },
+            'onSWFReady': function () {//Flash文件载入成功后触发。               
+            },
+            'onSelect': function (file) {        //当每个文件添加至队列后触发
+                //alert('id: ' + file.id
+                //+ ' - 索引: ' + file.index
+                //+ ' - 文件名: ' + file.name
+                //+ ' - 文件大小: ' + file.size
+                //+ ' - 类型: ' + file.type
+                //+ ' - 创建日期: ' + file.creationdate
+                //+ ' - 修改日期: ' + file.modificationdate
+                //+ ' - 文件状态: ' + file.filestatus);
+            },
+            'onCancel': function (file) {   //当点击文件队列中文件的关闭按钮或点击取消上传时触发，file参数为被取消上传的文件对象
+                //alert('id: ' + file.id      //队列中的id（如 SWFUpload_0_1）,在进度条显示的时候，对应文件进度条的id，可以控制显隐
+                //+ ' - 索引: ' + file.index   // SWFUpload_0_1 后面的1
+                //+ ' - 文件名: ' + file.name
+                //+ ' - 文件大小: ' + file.size
+                //+ ' - 类型: ' + file.type
+                //+ ' - 创建日期: ' + file.creationdate
+                //+ ' - 修改日期: ' + file.modificationdate
+                //+ ' - 文件状态: ' + file.filestatus);
+            },
+            'onSelectError': function (file, errorCode, errorMsg) {     //当文件选定发生错误时触发
+                //alert('id: ' + file.id
+                //+ ' - 索引: ' + file.index
+                //+ ' - 文件名: ' + file.name
+                //+ ' - 文件大小: ' + file.size
+                //+ ' - 类型: ' + file.type
+                //+ ' - 创建日期: ' + file.creationdate
+                //+ ' - 修改日期: ' + file.modificationdate
+                //+ ' - 文件状态: ' + file.filestatus
+                //+ ' - 错误代码: ' + errorCode
+                //+ ' - 错误信息: ' + errorMsg);
+            },
+            'onDialogClose': function (swfuploadifyQueue) {         //当文件选择对话框关闭时触发
+                //if (swfuploadifyQueue.filesErrored > 0) {
+                //    alert('添加至队列时有'
+                //    + swfuploadifyQueue.filesErrored
+                //    + '个文件发生错误\n'
+                //    + '错误信息:'
+                //    + swfuploadifyQueue.errorMsg
+                //    + '\n选定的文件数:'
+                //    + swfuploadifyQueue.filesSelected
+                //    + '\n成功添加至队列的文件数:'
+                //    + swfuploadifyQueue.filesQueued
+                //    + '\n队列中的总文件数量:'
+                //    + swfuploadifyQueue.queueLength);
+                //}
+            },
+            'onUploadStart': function (file) {               //上传开始时触发（每个文件触发一次）
+                //alert('id: ' + file.id
+                //+ ' - 索引: ' + file.index
+                //+ ' - 文件名: ' + file.name
+                //+ ' - 文件大小: ' + file.size
+                //+ ' - 类型: ' + file.type
+                //+ ' - 创建日期: ' + file.creationdate
+                //+ ' - 修改日期: ' + file.modificationdate
+                //+ ' - 文件状态: ' + file.filestatus);
+            },
+            'onUploadComplete': function (file, swfuploadifyQueue) {          //队列中的每个文件上传完成时触发一次
+                //alert('id: ' + file.id
+                //+ ' - 索引: ' + file.index
+                //+ ' - 文件名: ' + file.name
+                //+ ' - 文件大小: ' + file.size
+                //+ ' - 类型: ' + file.type
+                //+ ' - 创建日期: ' + file.creationdate
+                //+ ' - 修改日期: ' + file.modificationdate
+                //+ ' - 文件状态: ' + file.filestatus
+                //+ ' - 出错的文件数: ' + swfuploadifyQueue.filesErrored
+                //+ ' - 错误信息: ' + swfuploadifyQueue.errorMsg
+                //+ ' - 要添加至队列的数量: ' + swfuploadifyQueue.filesSelected
+                //+ ' - 添加至对立的数量: ' + swfuploadifyQueue.filesQueued
+                //+ ' - 队列长度: ' + swfuploadifyQueue.queueLength);
+            },
+            'onUploadError': function (file, errorCode, errorMsg, errorString, swfuploadifyQueue) {   //上传文件出错是触发（每个出错文件触发一次）
+                alert('id: ' + file.id
+                + ' - 索引: ' + file.index
+                + ' - 文件名: ' + file.name
+                + ' - 文件大小: ' + file.size
+                + ' - 类型: ' + file.type
+                + ' - 创建日期: ' + file.creationdate
+                + ' - 修改日期: ' + file.modificationdate
+                + ' - 文件状态: ' + file.filestatus
+                + ' - 错误代码: ' + errorCode
+                + ' - 错误描述: ' + errorMsg
+                + ' - 简要错误描述: ' + errorString
+                + ' - 出错的文件数: ' + swfuploadifyQueue.filesErrored
+                + ' - 错误信息: ' + swfuploadifyQueue.errorMsg
+                + ' - 要添加至队列的数量: ' + swfuploadifyQueue.filesSelected
+                + ' - 添加至对立的数量: ' + swfuploadifyQueue.filesQueued
+                + ' - 队列长度: ' + swfuploadifyQueue.queueLength);
+            },
+
+            'onUploadSuccess': function LoadFile(file, data, response) {
+                if (data !== "") {
+                    var jsonobj = eval("(" + data + ")");
+                    var imgurl = jsonobj["furl"];
+                    $("#PrewPic").attr("src", imgurl);
+                    alert('上传成功');
+                } else {
+                    alert("上传失败，请重试");
+                }
+            },
+            'onUploadProgress': function (file, fileBytesLoaded, fileTotalBytes, queueBytesLoaded, swfuploadifyQueueUploadSize) {
+                //上传进度发生变更时触发
+                //alert('id: ' + file.id
+                //+ ' - 索引: ' + file.index
+                //+ ' - 文件名: ' + file.name
+                //+ ' - 文件大小: ' + file.size
+                //+ ' - 类型: ' + file.type
+                //+ ' - 创建日期: ' + file.creationdate
+                //+ ' - 修改日期: ' + file.modificationdate
+                //+ ' - 文件状态: ' + file.filestatus
+                //+ ' - 当前文件已上传: ' + fileBytesLoaded
+                //+ ' - 当前文件大小: ' + fileTotalBytes
+                //+ ' - 队列已上传: ' + queueBytesLoaded
+                //+ ' - 队列大小: ' + swfuploadifyQueueUploadSize);
+            },
+            'onQueueComplete': function (stats) {                       //当队列中的所有文件全部完成上传时触发
+                //alert('成功上传的文件数: ' + stats.successful_uploads
+                //+ ' - 上传出错的文件数: ' + stats.upload_errors
+                //+ ' - 取消上传的文件数: ' + stats.upload_cancelled
+                //+ ' - 出错的文件数' + stats.queue_errors);
+            },
+            'onClearQueue': function (queueItemCount) {//当调用函数cancel方法时触发，
+                //queueItemCount参数为被取消上传的文件数量。
+                alert('取消上传文件的数量：' + queueItemCount);
+            },            
+            'onDestroy': function () {           //当destory方法被调用时触发
+            },
+            'onDisable': function () {           //当disable方法禁用Uploadify上传按钮时被调用时触发。
+            },
+            'onEnable': function () {            //当disable方法启用Uploadify上传按钮时被调用时触发。
+            },
+            'onFallback': function () {          //当Uploadify初始化过程中检测到当前浏览器不支持flash时触发。
+                alert('浏览器不兼容');
+            }
+        });
+
+        //点击上传按钮
+        $("#btnPicLoad").click(function () {
+            $("#file_upload").uploadify("upload", "*");
+        });
+    });
+</script>

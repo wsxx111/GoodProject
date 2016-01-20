@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>动画</title>
+    <meta name="keywords" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #SearchDiv {
+            height: 160px;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        #FontDiv {
+            top: 20px;
+            left: 0px;
+            position: relative;
+            color: yellow;
+            font-size: 28px;
+            display: inline;
+        }
+
+        #FontDivBack {
+            top: 20px;
+            left: 0px;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            color: yellow;
+            font-size: 28px;
+            display: inline;
+        }
+
+        .AbosDiv {
+            position: relative;
+            width: 390px;
+            min-height: 90px;
+            margin: 0 auto;
+            font-weight: bold;
+            font-family: 'Microsoft YaHei';
+            background-color: #138397;
+            overflow: hidden;
+        }
+
+        .SecDiv {
+            margin: 0 auto;
+            width: 300px;
+            height: 150px;
+            text-align: center;
+            outline: 1px solid red;
+        }
+
+            .SecDiv .F {                
+                line-height: 60px;
+                font-size: 22px;
+                outline: 1px solid red;                                            
+                -webkit-transition: all 2s;
+                -ms-transition: all 2s;
+                -o-transition: all 2s;
+                transition: all 2s;
+            }
+
+        .SecDiv .F:hover{
+            -webkit-transform: rotate(320deg);
+            -ms-transform: rotate(320deg);
+            -o-transform: rotate(320deg);
+            transform: rotate(320deg);
+            color: rebeccapurple;
+        }
+    </style>
+    <script type="text/javascript" src="/Scripts/jquery-1.7.1.js"></script>
+</head>
+<body>
+    <div id="SearchDiv">
+        <div class="AbosDiv">
+            <div id="FontDivBack">搜房网大小</div>
+            <div id="FontDiv">搜房网大小</div>
+        </div>
+    </div>
+    <div class="SecDiv">
+        <span class="F">搜房网</span>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        //$(".F").addClass("NewF");
+        setInterval("FadeFont(3,'FontDiv', 28, 58)", 2000);
+    });
+
+
+    function FadeFont(times, DivElem, OriFont, HideFont) {
+        $("#" + DivElem).animate({ fontSize: HideFont, opacity: 'hide', top: '0px' }, 300, function () {
+            times--;
+            if (times > 0) {
+                $(this).show();
+                $(this).css("top", "20px");
+                $(this).css("font-size", OriFont);
+                FadeFont(times, DivElem, OriFont, HideFont);
+            }
+            else {
+                return false;
+            }
+        });
+    }
+</script>
+

@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\ConsoleApplication1\xin\bin\xin.dll
+C:\Users\user\Desktop\ConsoleApplication1\xin\bin\xin.pdb
+C:\Users\user\Desktop\ConsoleApplication1\xin\obj\Debug\xin.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\ConsoleApplication1\xin\obj\Debug\xin.dll
+C:\Users\user\Desktop\ConsoleApplication1\xin\obj\Debug\xin.pdb
+C:\Users\user\Desktop\最新Ce\Ce\Others\xin\bin\xin.dll
+C:\Users\user\Desktop\最新Ce\Ce\Others\xin\bin\xin.pdb
+C:\Users\user\Desktop\最新Ce\Ce\Others\xin\obj\Debug\xin.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新Ce\Ce\Others\xin\obj\Debug\xin.dll
+C:\Users\user\Desktop\最新Ce\Ce\Others\xin\obj\Debug\xin.pdb

@@ -1,0 +1,11 @@
+C:\Users\89313\Desktop\Ce\Services\bin\Release\Services.dll
+C:\Users\89313\Desktop\Ce\Services\bin\Release\Services.pdb
+C:\Users\89313\Desktop\Ce\Services\bin\Release\Data.dll
+C:\Users\89313\Desktop\Ce\Services\bin\Release\Utility.dll
+C:\Users\89313\Desktop\Ce\Services\bin\Release\Entity.dll
+C:\Users\89313\Desktop\Ce\Services\bin\Release\Data.pdb
+C:\Users\89313\Desktop\Ce\Services\bin\Release\Utility.pdb
+C:\Users\89313\Desktop\Ce\Services\bin\Release\Entity.pdb
+C:\Users\89313\Desktop\Ce\Services\obj\Release\Services.csprojResolveAssemblyReference.cache
+C:\Users\89313\Desktop\Ce\Services\obj\Release\Services.dll
+C:\Users\89313\Desktop\Ce\Services\obj\Release\Services.pdb

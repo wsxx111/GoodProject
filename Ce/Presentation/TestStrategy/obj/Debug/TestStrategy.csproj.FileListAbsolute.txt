@@ -1,0 +1,60 @@
+C:\Users\89313\Desktop\最新Ce\Ce\TestStrategy\bin\TestStrategy.dll
+C:\Users\89313\Desktop\最新Ce\Ce\TestStrategy\bin\TestStrategy.pdb
+C:\Users\89313\Desktop\最新Ce\Ce\TestStrategy\obj\Debug\TestStrategy.dll
+C:\Users\89313\Desktop\最新Ce\Ce\TestStrategy\obj\Debug\TestStrategy.pdb
+C:\Users\89313\Desktop\最新Ce\Ce\TestStrategy\obj\Debug\TestStrategy.csprojResolveAssemblyReference.cache
+C:\Users\89313\Desktop\最新Ce\Ce\TestStrategy\bin\Core.dll
+C:\Users\89313\Desktop\最新Ce\Ce\TestStrategy\bin\ReadDataBaseStrategy.dll
+C:\Users\89313\Desktop\最新Ce\Ce\TestStrategy\bin\Core.pdb
+C:\Users\89313\Desktop\最新Ce\Ce\TestStrategy\bin\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\TestStrategy.dll
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\TestStrategy.pdb
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\Core.dll
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\Core.pdb
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\obj\Debug\TestStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\obj\Debug\TestStrategy.dll
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\obj\Debug\TestStrategy.pdb
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\ServiceStack.Interfaces.dll
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\NOSQLStrategy.dll
+C:\Users\user\Desktop\最新Ce\Ce\TestStrategy\bin\NOSQLStrategy.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\obj\Debug\TestStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\obj\Debug\TestStrategy.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\obj\Debug\TestStrategy.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\TestStrategy.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\TestStrategy.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\Core.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\NOSQLStrategy.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\Core.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\NOSQLStrategy.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新Ce - 副本\Ce\Presentation\TestStrategy\bin\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\TestStrategy.dll
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\TestStrategy.pdb
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\Core.dll
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\NOSQLStrategy.dll
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\ReadDataBaseStrategy.dll
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\ServiceStack.Redis.dll
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\ServiceStack.Text.dll
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\Core.pdb
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\NOSQLStrategy.pdb
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\ReadDataBaseStrategy.pdb
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\ServiceStack.Interfaces.xml
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\ServiceStack.Redis.xml
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\ServiceStack.Text.xml
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\obj\Debug\TestStrategy.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\obj\Debug\TestStrategy.dll
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\obj\Debug\TestStrategy.pdb
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\EmailStrategy.dll
+C:\Users\user\Desktop\最新整合\Ce\Presentation\TestStrategy\bin\EmailStrategy.pdb

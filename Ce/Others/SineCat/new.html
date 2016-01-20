@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html />
+<html>
+<head>
+    <title> Hello MiniUI!</title>
+    <!--jQuery js-->   
+    <script src="/JS/jquery-1.6.2.min.js"></script>
+    <!--MiniUI-->                        
+    <link href="/Css/themes/blue2010/skin.css" rel="stylesheet" />
+    <script src="/JS/miniui.js"></script>
+</head>
+<body>
+    <input id="helloBtn" class="mini-button" type="button" text="年后" onclick="onHelloClick"/>
+    <script type="text/javascript">
+        function onHelloClick(e) {
+            //var button = e.sender;
+            mini.alert("Hello MiniUI!");
+        }
+
+        (function () {         
+            function jQuery()
+            {
+                alert("sd");
+            }
+            window.jQuery=window.$ = jQuery;           
+        })()
+        $();
+        //pp();
+    </script>
+</body>
+</html>

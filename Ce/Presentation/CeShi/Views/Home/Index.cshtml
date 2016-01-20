@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>首页登录</title>
+    @{
+        var version = DateTime.Now.Ticks.ToString();
+        if (this.Model.WebSysConfig.Version == "Develop")
+        {
+            version = this.Model.WebSysConfig.RunState;
+        }
+    }
+    <link href="@(this.Model.WebSysConfig.CSSCDN)/Content/Css/login.css?Version=@(version)" rel="stylesheet" />
+</head>
+<body class="login_box_bg">
+    <form id="form1" method="post">
+        <div class="login_logo"></div>
+        <div class="login_box">
+            <div class="login_t">
+                系统登录               
+            </div>
+            <div class="login_c">
+                <ul class="form">
+                    <li>
+                        <label>
+                            <span class="title">用户名</span>
+                            <span class="text">
+                                <input name="username" type="text" id="TBox_user" />
+                            </span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <span class="title">密&nbsp;&nbsp;&nbsp;码</span>
+                            <span class="text">
+                                <input name="userpwd" type="password" id="TBox_pwd" /></span></label>
+                    </li>
+                    <li>
+                        <div class="btn_login">
+                            <input id="showinfo" type="button" style="display: inline" value="显示网址信息" />&nbsp;&nbsp;&nbsp;&nbsp;                           
+                            <span style="font-size: 12px;"><a href="mailto:wangkaibj@fang.com?subject=客户回信&cc=893130389@qq.com&body=您好：">联系我们</a></span>
+                            <span style="height: 10px; color: red; font-size: 13px; margin-left: 20px">本地ip: @this.Model.IP</span>
+                            <input type="submit" id="btn_Login" onclick="check()" />
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="login_b"></div>
+        </div>
+    </form>
+    <div style="height:60px;margin-left:730px;margin-top:30px;">
+        <div style="float:left;margin:5px;color:#e70ff8;font-size:16px;"><a href="@Url.Action("Index","Admin")">Brnshop后台模拟</a></div>
+        <div style="float:left;margin:5px;color:red;font-size:16px;"><a href="@Url.Action("Index","SecKill")">秒杀</a></div>
+        <div style="float:left;margin:5px;color:#1d81fb;font-size:16px;"><a href="@Url.Action("Index","Parameter")">加列</a></div>
+        <div style="float:left;margin:5px;color:#1d81fb;font-size:16px;"><a href="@Url.Action("Index","UploadImg")">上传</a></div>
+    </div>
+    <div id="infopannel" style="display: none; position: absolute; left: 42px; top: 145px;">
+        <div>
+            客户端ip： @this.Model.IP
+        </div>
+        <div>
+            上一地址： @this.Model.UrlReferrer
+        </div>
+        <div>
+            是否是AJAX请求： @this.Model.IsHttpAjax
+        </div>
+        <div>
+            当前网站在线总人数：  @this.Model.OnlineUserCount
+        </div>
+        <div>
+            当前网站在线游客数：  @this.Model.OnlineGuestCount
+        </div>
+        <div>
+            当前网站在线会员数：  @this.Model.OnlineMemberCount
+        </div>
+        <div>
+            方法执行开始时间： @this.Model.StartExecuteTime
+        </div>
+        <div>
+            方法执行总时间： @this.Model.ExecuteTime
+        </div>
+        <div>
+            会话SessionID: @this.Model.Sid
+        </div>        
+    </div>
+</body>
+</html>
+<script>
+    function check() {
+        var name = document.getElementById("TBox_user").value;
+        if (name == '') { alert('请填写用户名'); return; }
+        var pwd = document.getElementById("TBox_pwd").value;
+        if (pwd == '') { alert('请填写密码'); return; }
+        else
+        {
+            this.form1.action = 'Home/CheckLogin';
+        }
+    }
+    window.onload = function () {
+        var showobj = document.getElementById('showinfo');
+        var infoobj = document.getElementById('infopannel');
+        showobj.onclick = function () {
+            if (infoobj.style.display == "none") {
+                infoobj.style.display = "block";
+                showobj.value = "隐藏网址信息";
+            }
+            else {
+                infoobj.style.display = "none";
+                showobj.value = "显示网址信息";
+            }
+        }
+
+        //showobj.onclick = function () {
+        //    if(infoobj.style.display=='')
+        //};
+        //alert(window.showinfo.value);
+    };
+</script>

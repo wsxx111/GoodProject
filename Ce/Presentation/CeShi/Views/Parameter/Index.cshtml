@@ -1,0 +1,78 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Content/JS/jquery-1.7.2.min.js"></script>
+    <style type="text/css">
+        * {
+            padding: 0px;
+            margin: 4px;
+        }
+
+        #ParaTable {
+            border-collapse: collapse;
+            border: 1px solid #808080;
+            font-size: 13px;
+            width: 700px;
+        }
+
+            #ParaTable td {
+                border: 1px solid #808080;
+                text-align: center;
+            }
+
+        .datarow {
+            line-height: 30px;
+            min-height:30px;
+        }
+
+        .newrow {
+            line-height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <table id="ParaTable">
+        <tr style="background-color: #cafefe; font-weight: bold; line-height: 35px;">
+            <td style="width: 10%">参数</td>
+            <td style="width: 10%">类型&长度</td>
+            <td style="width: 10%">是否可空</td>
+            <td style="width: 30%">参数说明</td>
+            <td style="width: 20%">示例</td>
+            <td style="width: 20%">操作</td>
+        </tr>
+        @{
+            var  datalist=this.Model as List<CeShi.Controllers.Admin.ParameterInfo>;
+            for (int i = 0; i < datalist.Count; i++)
+            {
+            <tr class="datarow">
+                <td>@datalist[i].ParaName</td>
+                <td>@datalist[i].ParaType</td>
+                <td>@(datalist[i].ParaIsNull == 1 ? "是" : "否")</td>
+                <td>@datalist[i].ParaDescription</td>
+                <td>@datalist[i].ParaExample</td>
+                <td><a class="editdata" key="@datalist[i].ParaID" >编辑</a>&nbsp;<a class="deldata" key="@datalist[i].ParaID">删除</a></td>
+            </tr>
+            }
+        }     
+        <tr class="newrow">
+            <td colspan="5"></td>
+            <td><a class="adddata">添加</a></td>
+        </tr>
+    </table>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        $(".adddata").click(function () {
+            var str = " <tr class=\"datarow\"><td>测试</td><td>string(20)</td><td>是</td><td>秒杀</td><td></td><td><a class=\"editdata\" key=\"6\" >编辑</a>&nbsp;<a class=\"deldata\" key=\"6\">删除</a></td></tr>";
+            $(".newrow").before(str);
+        });
+    });
+</script>

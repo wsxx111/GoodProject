@@ -1,0 +1,60 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <input type="hidden" id="usename" value="@ViewBag.Username" />
+     <input type="hidden" id="ctime" value="@ViewBag.ClientTime" />
+    <div>
+     密令：<span id="code">--</span>  
+    </div>
+    <div>
+     剩余时间：<span id="lefttime">--</span>秒 
+    </div>
+</body>
+</html>
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+       // UpdateCode();
+        window.setInterval(UpdateCode, 1000);
+    });
+    function UpdateCode() {
+        var username = $("#usename").val();
+        var clientime = $("#ctime").val();
+        $.ajax({
+            async: true,
+            type: "POST",
+            url: "/TokenCheck/UpdateToken",
+            cache: false,
+            time: 60 * 60 * 1000,
+            dataType: "json",
+            data: {
+                Username: encodeURI(username),
+                ClientTime: clientime
+            },
+            success: function (result) {                 
+                if (result.Message == "Success") {
+                    $("#code").text(result.Token.TokenCode);
+                    $("#ctime").val(result.Time);                   
+                    $("#lefttime").text(result.Token.LeftTime);
+                }
+                else {
+                    alert("获取失败");
+                }
+            },
+            error: function () {
+                alert('出现异常');
+            }           
+        });
+    };
+</script>
+
+

@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <script src="/Content/JS/jquery-1.7.2.min.js"></script>    
+    <script type="text/javascript" src="/Content/JS/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="/Content/JS/ueditor/ueditor.all.js"></script>
+    <link href="/Content/JS/jbox/Skins/Default/jbox.css" rel="stylesheet" />
+    <script src="/Content/JS/jbox/jquery.jBox-2.3.min.js"></script>
+    <style type="text/css">
+        html body .rightH1 a.menuBT {
+            display: block;
+            float: left;
+            height: 24px;
+            color: #FFF;
+            font-size: 12px;
+            line-height: 24px;
+            background: url(/Content/Images/Admin/bt_right.jpg) no-repeat right #2c617f;
+            padding-right: 14px;
+            font-weight: normal;
+            margin-left: 5px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        html body .menuBT img {
+            float: left;
+            margin-right: 3px;
+        }
+
+        /*右侧Right*/
+        .rightH1 {
+            border-bottom: 2px solid #93aebf;
+            font-size: 12px;
+            color: #135275;
+            height: 30px;
+            line-height: 30px;
+            position: relative;
+            margin-left: 15px;
+            font-weight: bold;
+        }
+
+            .rightH1 div {
+                font-size: 14px;
+                position: absolute;
+                top: 3px;
+                *top: 3px;
+                _top: 10px;
+                right: 0px;
+                _right: 5px;
+            }
+
+            .rightH1 img {
+                width: 32px;
+                height: 24px;
+            }
+
+        .clear {
+            clear: both;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .addTable {
+            padding-top: 5px;
+        }
+
+        .addTag {
+            margin: 2px 0 0 15px;
+            height: 25px;
+            overflow: hidden;
+            border-bottom: 3px solid #016094;
+        }
+
+            .addTag li {
+                float: left;
+                height: 26px;
+                margin-right: 25px;
+                padding-left: 11px;
+                margin-left: -3px;
+            }
+
+                .addTag li a {
+                    padding: 0 20px 0 10px;
+                    height: 26px;
+                    line-height: 30px;
+                    _float: left;
+                    _line-height: 26px;
+                    font-size: 12px;
+                }
+
+                .addTag li.hot {
+                    background: url(/Content/Images/Admin/tagbg-left.jpg) no-repeat left top;
+                }
+
+                    .addTag li.hot a {
+                        display: block;
+                        background: url(/Content/Images/Admin/tagbg.jpg) no-repeat right;
+                        color: #FFF;
+                    }
+
+        /*仿下拉框按钮*/
+        .selectBt {
+            float: left;
+            background: url(/Content/Images/Admin/selectbg.gif) repeat-x center center;
+            height: 20px;
+            cursor: pointer;
+            border: 1px solid #bec7d4;
+        }
+
+            .selectBt input {
+                background: url(/Content/Images/Admin/selectbgico.gif) no-repeat 6px center;
+                border: 0;
+                height: 20px;
+                line-height: 22px;
+                text-align: left;
+                padding-left: 22px;
+                padding-right: 10px;
+            }
+
+        /*分页*/
+        .batch {
+            cursor: pointer;
+        }
+
+        .dataListEdit {
+            height: 36px;
+            line-height: 36px;
+            background: #f8f8f8;
+            margin-left: 15px;
+            padding: 0px 0px 0px 0px;
+            position: relative;
+        }
+
+            .dataListEdit .batch {
+                background: #1c587b;
+                height: 20px;
+                line-height: 20px;
+                margin: 8px 6px 8px 0px;
+                color: #FFF;
+                padding: 0 10px;
+                display: block;
+                float: left;
+            }
+
+        .page {
+            position: absolute;
+            right: 22px;
+            _right: 32px;
+            top: 0px;
+        }
+
+            .page a.bt {
+                background: url(/Content/Images/Admin/bg.jpg) repeat-x;
+                color: #000;
+            }
+
+            .page a {
+                display: inline;
+                background: #FFF;
+                width: 20px;
+                padding: 1px 7px;
+                border: 1px solid #e9e9e9;
+                margin-right: 5px;
+            }
+
+            .page .summary {
+                display: inline;
+                padding: 1px 4px 0 7px;
+                margin-right: 2px;
+            }
+
+            .page input {
+                cursor: pointer;
+                height: 15px;
+                padding: 0;
+                line-height: 15px;
+                font-size: 11px;
+                -webkit-text-size-adjust: none;
+                margin-right: 4px;
+                margin-bottom: 3px;
+                text-align: center;
+            }
+
+            .page a.hot, .page a:hover {
+                background: #5b83b4;
+                color: #FFF;
+            }
+    </style>
+</head>
+<body>
+    <div class="rightH1">
+        商品管理 &gt;&gt; 添加商品
+        <div class="right">
+            <a href="#" class="menuBT">
+                <img src="/Content/Images/Admin/goback.jpg" />返回列表</a>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <ul class="addTag">
+        <li class="hot"><a href="javascript:;">基本信息</a></li>
+        <li><a href="javascript:;">属性信息</a></li>
+        <li><a href="javascript:;">辅助信息</a></li>
+        <li><a href="javascript:;">详细描述</a></li>
+    </ul>
+
+    @using (Html.BeginForm())
+    {
+        <div class="addTable">
+            <div class="selectBt">
+                <input type="button" value="请选择" onclick="openCitySelectLayer(this)" />
+                <input type="hidden" class="CateId" id="CateId" value="" />
+            </div>
+
+            <div class="clear"></div>
+            @*提交*@
+            <div style="margin-top: 10px;">
+                <a href="#" class="addBt submit">
+                    <img src="/Content/Images/Admin/submit.jpg" />
+                </a>
+            </div>
+        </div>
+        <div class="addTable hide">
+            <div class="selectBt">
+                <input type="button" value="请选择" onclick="openProductSelectLayer(this)" />
+                <input type="hidden" class="BrandId" id="BrandId" name="BrandId" value="" />
+            </div>
+        </div>
+        <div class="addTable hide">
+            3
+        </div>
+        
+        <div class="addTable hide">
+           <table width="100%">
+                <tr>
+                    <td width="0px" style="text-align:right">
+                        <div style="margin-left: 15px;">
+                        </div>
+                    </td>
+                    <td>
+                        <div style="margin-top: 5px;">
+                        </div>
+                         <script  id="bspEditor" type="text/plain"></script>
+                         <script type="text/javascript">
+                             UE.Editor.prototype.getActionUrl = function (action) {
+                                 if (action == "config") {
+                                     return "/Files/Upload?operation=ueconfig";
+                                 } else {
+                                     return "/Files/Upload?operation=uploadproducteditorimage";
+                                 }
+                             }
+                             UE.getEditor('bspEditor');
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right">
+                        &nbsp;
+                    </td>
+                    <td>
+                        <a href="#" class="addBt submit">
+                            <img src="/Content/Images/Admin/submit.jpg" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right">
+                        &nbsp;
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+        </div>
+       
+           
+    }
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script type="text/javascript">
+    //提交按钮
+    $(function () {
+        $(".submit").click(function () {
+            $("form:first").submit();
+            return false;
+        })
+
+        //选项卡
+        $(".addTag li").click(function () {
+            $(".addTag li").removeClass("hot");
+            $(this).addClass("hot");
+            $(".addTable").hide().eq($(this).index()).show(0);
+        })
+
+    });
+
+    var openSelectLayerBut = null;
+    var oldSearchOfSelectList = "";
+    var SelectLayerHtml = "<div class='selectBoxProgressBar'><p><img src='/Content/Images/Admin/progressbar.gif'/></p></div>";
+
+    function ajaxSelectList() {
+        $.jBox.setContent(SelectLayerHtml);
+        $.get("/Content/JS/citylist.html?t=" + new Date(), function (data) {
+            $.jBox.setContent(data);
+        })
+    }
+
+    function ajaxProductSelectList(filterName, pageNumber) {
+        $.jBox.setContent(SelectLayerHtml);
+        //$.get("/brand/selectlist?t=" + new Date(), {
+        //    'brandName': brandName,
+        //    'pageNumber': pageNumber
+        //}, function (data) {
+        //});
+        //下面测试
+
+        $.get('/Content/JS/productlist.json', function (data) {
+            var listObj = eval("(" + data + ")");
+            var html = "<div id='selectBrandBox'><table width='100%' ><tr><td>品牌名称：<input type='text' id='searchBrandOfSelectList'  name='searchBrandOfSelectList' style='width:120px;height:18px;'> <input type='image' src='/Content/Images/Admin/s.jpg' class='searchBut'></td></tr><tr><td><div id='BoxCon'><ul>";
+
+            for (var i = 0; i < listObj.items.length; i++) {
+                html += "<li><a brandId='" + listObj.items[i].id + "'>" + listObj.items[i].name + "</a></li>";
+            }
+            html += "<div class='clear'></div></ul><div class='clear'></div></div></td></tr><tr><td><div class='page' style='position:static;'>";
+            var pageNumber = parseInt(listObj.pagenumber);
+            var totalPages = parseInt(listObj.totalpages);
+            var startPageNumber = 1;
+            var endPageNumber = 1;
+            if (pageNumber == totalPages && totalPages >= 9) {
+                startPageNumber = totalPages - 9;
+            }
+            else if (pageNumber - 4 >= 1) {
+                startPageNumber = pageNumber - 4;
+            }
+            else {
+                startPageNumber = 1;
+            }
+            if (pageNumber == 1 && totalPages >= 9) {
+                endPageNumber = 9;
+            }
+            else if (pageNumber + 4 <= totalPages) {
+                endPageNumber = pageNumber + 4;
+            }
+            else {
+                endPageNumber = totalPages;
+            }
+
+            html += "<a href='javascript:;' class='bt' onclick='goSelectListPage(this)' pageNumber='1'><</a>";
+            for (var j = startPageNumber; j <= endPageNumber; j++) {
+                if (j != pageNumber) {
+                    html += "<a href='javascript:;' class='bt' onclick='goSelectListPage(this)' pageNumber='" + j + "'>" + j + "</a>";
+                }
+                else {
+                    html += "<a href='javascript:;' class='bt hot'>" + j + "</a>";
+                }
+            }
+            html += "<a href='javascript:;' class='bt' onclick='goSelectListPage(this)' pageNumber='" + totalPages + "'>></a>";
+
+            html += "</div></td></tr></table></div>"
+            $.jBox.setContent(html);
+            $("#searchOfSelectList").val(oldSearchOfSelectList);
+        });
+    }
+
+
+    function goSelectListPage(pageObj) {
+    }
+
+
+    //去选中
+    function setSelected(selectedValue) {
+        $(openSelectLayerBut).parent().find(".CateId").val(selectedValue);
+        $.jBox.close('SelectLayer');
+    }
+
+    function openCitySelectLayer(openLayerBut) {
+        $.jBox('html:', {
+            id: 'SelectLayer',
+            width: 750,
+            buttons: { '关闭': true },
+            title: "选择城市"
+        });
+        ajaxSelectList();
+        openSelectLayerBut = openLayerBut;
+    }
+    function openProductSelectLayer(openLayerBut) {
+        $.jBox('html:', {
+            id: 'brandSelectLayer',
+            width: 750,
+            buttons: { '关闭': true },
+            title: "选择产品"
+        });
+        openSelectLayerBut = openLayerBut;
+        ajaxProductSelectList();
+    }
+
+
+</script>

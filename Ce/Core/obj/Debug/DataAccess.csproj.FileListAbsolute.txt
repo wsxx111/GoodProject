@@ -1,0 +1,14 @@
+C:\Users\89313\Desktop\Ce\Data\bin\Debug\Entity.dll
+C:\Users\89313\Desktop\Ce\Data\bin\Debug\Entity.pdb
+C:\Users\89313\Desktop\Ce\Data\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\89313\Desktop\Ce\Data\bin\Debug\DataAccess.dll
+C:\Users\89313\Desktop\Ce\Data\bin\Debug\DataAccess.pdb
+C:\Users\89313\Desktop\Ce\Data\obj\Debug\DataAccess.dll
+C:\Users\89313\Desktop\Ce\Data\obj\Debug\DataAccess.pdb
+C:\Users\user\Desktop\Ce\Data\bin\Debug\DataAccess.dll
+C:\Users\user\Desktop\Ce\Data\bin\Debug\DataAccess.pdb
+C:\Users\user\Desktop\Ce\Data\bin\Debug\Entity.dll
+C:\Users\user\Desktop\Ce\Data\bin\Debug\Entity.pdb
+C:\Users\user\Desktop\Ce\Data\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Ce\Data\obj\Debug\DataAccess.dll
+C:\Users\user\Desktop\Ce\Data\obj\Debug\DataAccess.pdb
