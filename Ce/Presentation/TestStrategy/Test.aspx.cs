@@ -39,27 +39,7 @@ namespace TestStrategy
             //}           
             //List<string> userlist = HashOperator.GetAll<string>(u1.Id); 
 
-
-            
-            _iemailstrategy = Core.SysEmail.Instance;
-            _emailconfiginfo = Core.SystemConfigData.EmailConfig;
-
-            _iemailstrategy.Host = _emailconfiginfo.Host;
-            _iemailstrategy.Port = _emailconfiginfo.Port;
-            _iemailstrategy.UserName = _emailconfiginfo.UserName;
-            _iemailstrategy.Password = _emailconfiginfo.Password;
-            _iemailstrategy.From = _emailconfiginfo.From;
-            _iemailstrategy.FromName = _emailconfiginfo.FromName;
-
-            string subject = "安全中心邮箱验证提醒测试";
-
-            System.Text.StringBuilder body = new System.Text.StringBuilder(_emailconfiginfo.SCVerifyBody);
-            body.Replace("{shopname}", "网上商城");
-            body.Replace("{siteurl}", "http://www.ddd.com");
-            body.Replace("{username}", "d");
-            body.Replace("{deadline}", DateTime.Now.AddMinutes(30).ToString("yyyy-MM-dd HH:mm"));
-            body.Replace("{url}", "");
-            _iemailstrategy.Send("", subject, body.ToString());
+       
 
         }      
     }

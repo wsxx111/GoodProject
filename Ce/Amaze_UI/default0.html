@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Amaze UI</title>
+    <link href="/Css/amazeui.min.css" rel="stylesheet" />
+    <style type="text/css">
+        .btn {
+            display: inline-block;
+            width: 52px;
+            height: 25px;
+            border: 0;
+            font: 0/0 a;
+            overflow: hidden; /* 抹掉a标签按钮最上面的小点 */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="am-alert" data-am-alert>
+        <button type="button" class="am-btn am-btn-warning am-close am-icon-close"></button>
+        <h3>共同渡过</h3>
+        <p>《共同渡过》是张国荣1987年发行的专辑《Summer Romance》中的一首歌。</p>
+        <ul>
+            <li>若我可再活多一次都盼</li>
+            <li>再可以在路途重逢着你</li>
+            <li>共去写一生的句子</li>
+            <li>若我可再活多一次千次</li>
+            <li>我都盼面前仍是你</li>
+            <li>我要他生都有今生的暖意</li>
+        </ul>
+    </div>
+    <div class="am-alert" id="cl">
+        <button type="button" class="am-btn am-btn-warning am-close am-icon-close"></button>
+        <h3>啦啦啦啦</h3>
+
+    </div>
+    <div>
+        <button type="button" id="examp" class="am-btn am-btn-warning am-loading" data-am-loading="{spinner:'circle-o-notch',loadingText:'剩余时间',resetText:'重新发送验证码'}">发送验证码</button>
+    </div>
+
+
+    <div class="am-panel-group" id="accordion">
+
+        <div class="am-panel am-panel-success">
+            <div class="am-panel-hd">
+                <div class="am-panel-title" data-am-collapse="{parent:'#accordion',target:'#do-say-1'}">
+                    这是说明1
+                </div>
+            </div>
+            <div id="do-say-1" class="am-panel-collapse am-collapse am-in">
+                <div class="am-panel-bd">
+                    按时到合肥的时刻就范德萨卡饭店手机
+                </div>
+            </div>
+        </div>
+
+
+        <div class="am-panel am-panel-warning">
+            <div class="am-panel-hd">
+                <div class="am-panel-title" data-am-collapse="{parent:'#accordion',target:'#do-say-2'}">
+                    这是说明2
+                </div>
+            </div>
+            <div id="do-say-2" class="am-panel-collapse am-collapse">
+                <div class="am-panel-bd">
+                    更放得开加工费的世界观饭店手机
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <ul class="am-list" id="da">
+        <li class="am-panel">
+            <a href="##">首页</a>
+        </li>
+        <li class="am-panel">
+            <a href="##" data-am-collapse="{target:'#xiao1'}">管理</a>
+            <ul class="am-list am-collapse" id="xiao1">
+                <li><a href="##">添加</a></li>
+                <li><a href="##">删除</a></li>
+            </ul>
+        </li>
+        <li class="am-panel">
+            <a href="##" data-am-collapse="{target:'#xiao2'}">分析</a>
+            <ul class="am-list am-collapse" id="xiao2">
+                <li><a href="##">条形图</a></li>
+                <li><a href="##">折线图</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <div>
+        <button class="am-btn am-btn-primary" data-am-collapse="{target:'#col-nav'}">Menu<i class="am-icon-bars"></i></button>
+    </div>
+    <nav>
+        <ul id="col-nav" class="am-nav am-collapse">
+            <li><a href="##">使用1</a></li>
+            <li><a href="##">使用2</a></li>
+            <li><a href="##">使用3</a></li>
+            <li><a href="##">使用4</a></li>
+        </ul>
+    </nav>
+    <br />
+    <div class="am-btn-group">
+        <button type="button" class="am-btn am-btn-success">下拉</button>
+        <div class="am-dropdown" data-am-dropdown>
+            <button class="am-btn am-btn-success am-dropdown-toggle" data-am-dropdown-toggle>
+                <span class="am-icon-caret-down"></span>
+            </button>
+            <ul class="am-dropdown-content">
+                <li class="am-dropdown-header">标题</li>
+                <li><a href="#">百度</a></li>
+                <li class="am-active"><a href="#">天猫</a></li>
+                <li class="am-disabled"><a href="#">腾讯</a></li>
+                <li class="am-divider"><a href="#">新浪</a></li>
+                <li><a href="#">途牛</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <button type="button" class="am-btn am-btn-warning" data-am-modal="{target:'#alwin'}">弹框</button>
+
+
+    <div class="am-modal am-modal-no-btn" tabindex="-1" id="alwin1">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">
+                标题
+                <a href="javascript: void(0)" class="am-close am-close-spin am-icon-close" data-am-modal-close></a>
+            </div>
+            <div class="am-modal-bd">
+                Modal 内容。
+            </div>
+        </div>
+    </div>
+    <div class="am-modal am-modal-alert" tabindex="-1" id="alwin">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">
+                标题              
+            </div>
+            <div class="am-modal-bd">
+                Modal 内容。
+            </div>
+            <div class="am-modal-footer">
+                <span class="am-modal-btn">确定</span>
+            </div>
+        </div>
+    </div>
+
+    <ul class="am-list" id="kk">
+        <li>每个人都有一个死角。<i class="am-icon-close"></i></li>
+        <li><a data-id="2" href="##">我把最深沉的秘密放在那里。</a><i class="am-icon-close"></i></li>
+    </ul>
+    <div class="am-modal am-modal-confirm" tabindex="-1" id="myconfirm">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">UI</div>
+            <div class="am-modal-bd">你确定要删除这条内容吗？</div>
+            <div class="am-modal-footer">
+                <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+                <span class="am-modal-btn" data-am-modal-confirm>确定</span>
+            </div>
+        </div>
+    </div>
+
+
+    <button type="button" id="tan" class="am-btn am-btn-success">弹Prompt框</button>
+    <div class="am-modal am-modal-prompt" tabindex="-1" id="myprompt">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">UI</div>
+            <div class="am-modal-bd">
+                吐吐槽
+                <input type="text" class="am-modal-prompt-input">
+            </div>
+
+            <div class="am-modal-footer">
+                <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+                <span class="am-modal-btn" data-am-modal-confirm>提交</span>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="am-btn am-btn-secondary" data-am-modal="{target:'#myactions'}">下面弹框</button>
+    <div class="am-modal-actions" tabindex="-1" id="myactions">
+        <div class="am-modal-actions-group">
+            <ul class="am-list">
+                <li class="am-modal-actions-header">新的一年，你有什么愿望</li>
+                <li><a href="##"><span class="am-icon-wechat"></span>分享到微信</a></li>
+                <li class="am-modal-actions-danger">
+                    <a href="##"><i class="am-icon-twitter"></i>分享到Twitter</a>
+                </li>
+            </ul>
+        </div>
+        <div class="am-modal-actions-group">
+            <button class="am-btn am-btn-secondary am-btn-block" data-am-modal-close>取消</button>
+        </div>
+    </div>
+
+    <button type="button" class="am-btn am-btn-danger" data-am-modal="{target:'#mypopup'}">弹popup</button>
+    <div class="am-popup" id="mypopup">
+        <div class="am-popup-inner">
+            <div class="am-popup-hd">
+                <h4 class="am-popup-title">标题</h4>
+                <i class="am-close am-icon-close" data-am-modal-close></i>
+            </div>
+            <div class="am-popup-bd">
+                内容
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="am-btn am-btn-primary" data-am-popover="{content:'我就是我，不一样的烟火'}">在北京真难</button>
+    <button type="button" class="am-btn am-btn-primary" data-am-popover="{content:'我就是我，不一样的烟火',trigger:'focus hover'}">在北京真难</button>
+    <button type="button" class="am-btn am-btn-primary" data-am-popover="{content:'我就是我，不一样的烟火',theme:'success sm',trigger:'focus hover'}">在北京真难</button>
+
+    <button type="button" class="am-btn am-btn-primary" id="BtnStart">开始</button> 
+    <button type="button" class="am-btn am-btn-success" id="BtnOver">完成</button> 
+    <br />
+    <br />
+    <br />
+    <script src="/JS/jquery.min.js"></script>
+    <script src="/JS/amazeui.min.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        $("#cl").alert(); //激活 Alert 元素关闭按钮的交互功能
+        //  $("#cl").alert('close'); //关闭元素
+
+        $("#cl").on('close.alert.amui', function () {
+            alert("开始关闭");
+        });
+
+        $(document).on('closed.alert.amui', "#cl", function () {
+            alert("已关闭");
+        });
+        $("#kk").find('.am-icon-close').on('click', function () {
+            $("#myconfirm").modal({
+                relatedTarget: this,
+                onConfirm: function (options) {
+                    var $link = $(this.relatedTarget).prev('a');
+                    var msg = $link.length ? '你要删除的链接 ID 为 ' + $link.data('id') :
+            '确定了，但不知道要整哪样';
+                    alert(msg);
+                },
+                onCancel: function () {
+                    alert('算求，不弄了');
+                }
+            });
+
+        });
+        $("#tan").on('click', function () {
+            $("#myprompt").modal({
+                relatedTarget: this,
+                onConfirm: function (e) {
+                    alert('你输入的是：' + e.data || '')
+                },
+                onCancel: function () {
+                    alert('不想说!');
+                }
+            });
+
+        });
+        $("#BtnStart").on('click', function () {
+            $.AMUI.progress.start();
+        });
+        $("#BtnOver").on('click', function () {
+            $.AMUI.progress.done(true);
+        });
+
+        $("#examp").on("click", function () {
+            var $btn = $(this);
+            $btn.button('loading');
+            //var time = 60;
+
+            //$btn.text('剩余时间' + time+"秒");
+            //var rr = window.setInterval(function () {
+            //    time--;
+            //    $btn.text('剩余时间' + time+'秒');
+            //    if (time <= 0)
+            //    {
+            //        $btn.button('reset');
+            //        window.clearInterval(rr);
+            //    }              
+            //}, 1000);
+
+            setTimeout(function () {
+                $btn.button('reset');
+            }, 2000);
+        });
+
+    });
+
+
+</script>

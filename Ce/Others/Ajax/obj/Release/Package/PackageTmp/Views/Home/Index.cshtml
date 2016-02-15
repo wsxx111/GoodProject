@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AJAX测试</title>
+    <script src="/Scripts/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+    <p id="results"><b>结果: </b></p>
+    <form>
+        <select name="single">
+            <option>中国</option>
+            <option>美国</option>
+        </select>
+        <select name="multiple" multiple="multiple">
+            <option selected="selected">篮球</option>
+            <option>排球</option>
+            <option selected="selected">足球</option>
+        </select><br />
+        <input type="checkbox" name="check" value="check1" />
+        汉献帝
+  <input type="checkbox" name="check" value="check2" checked="checked" />
+        曹操
+  <input type="radio" name="radio" value="radio1" checked="checked" />
+        刘备
+  <input type="radio" name="radio" value="radio2" />
+        孙权
+    </form>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+
+        // 设置ajax全局默认值
+        // 上述$.ajaxSetup()的默认设置对$.get()、$.post()、load()、$.getJSON()、$.getScript()等AJAX函数也生效
+        // 因为这些函数也是在内部调用$.ajax()函数来实现的，只不过它们在内部都设置了一些参数
+
+        $.ajaxSetup({
+            url: 'Home/Index', // 默认URL
+            aysnc: false, // 默认同步加载
+            type: "POST", // 默认使用POST方式
+            headers: { // 默认添加请求头
+                "Author": "wk",
+            },
+            beforeSend: function (XmlHttpRequestObject,ThisSetting) {
+               //return false;  返回为false则不执行ajax
+            },
+            error: function (jqXHR, textStatus, errorMsg) { // 出错时默认的处理函数
+                // jqXHR 是经过jQuery封装的XMLHttpRequest对象
+                // textStatus 可能为： null、"timeout"、"error"、"abort"或"parsererror"
+                // errorMsg 可能为： "Not Found"、"Internal Server Error"等
+                // 提示形如：发送AJAX请求到"Home/Index"时出错[404]：Not Found
+                alert('发送AJAX请求到"' + this.url + '"时出错[' + jqXHR.status + ']：' + textStatus + "?" + errorMsg);
+            }
+        });
+
+        //XmlHttpRequestObject 属性：
+        //1.  readyState HTTP请求的状态，只能有5个可选的值，  0 = uninitialized, 1 = loading, 2 = loaded, 3 = interactive, and 4 = complete
+        //    XMLHttpRequest对象刚new出来的时候，readyState的值是0
+        //2.  responseText  代表的是从Server端返回的一个string格式的响应。
+        //3.  responseXML   代表从Server端传回的XML格式的数据，可以直接被当作DOM对象使用。
+        //4.  status  这个在HTTP响应中的响应码。200代表响应成功，所以一般在status==200才进行响应数据的操作，如果不是200，那说明HTTP响应不正常，也就不用处理。
+        //5.   statusText  HTTP协议中跟在响应码后面的相应说明串。例如200 后面就会跟着OK。
+        // 6. onreadystatechange  这个属性关联一个JavaScript回调函数，每当readyState属性值改变时，就会调用一次。
+         
+        var sd = $("select[name=multiple]").serializeArray();        
+        $.ajax({
+            type: 'post',
+            url: 'Home/GetData',
+            cache: false,
+            data: sd,
+            datatype: 'json',
+            //ResponseData : 处理后的数据
+            //textStatus : 描述状态的字符串 success
+            //XmlHttpRequestObject：XMLHttpRequest对象
+            success: function (ResponseData, textStatus, XmlHttpRequestObject) {
+                alert(ResponseData);
+            },
+        });
+
+    });
+</script>
+;

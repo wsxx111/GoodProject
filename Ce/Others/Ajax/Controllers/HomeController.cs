@@ -20,7 +20,7 @@ namespace Ajax.Controllers
         {
             var ddd = Request["multiple"];
             string result = "successData";
-            return Json(result);
+            return Json(result + "，收到数据为：" + ddd);
         }
 
     }

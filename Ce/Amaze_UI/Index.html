@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Amaze UI</title>
+    <link href="/Css/amazeui.min.css" rel="stylesheet" />
+    <style type="text/css">
+        .btn {
+            display: inline-block;
+            width: 52px;
+            height: 25px;
+            border: 0;
+            font: 0/0 a;
+            overflow: hidden; /* 抹掉a标签按钮最上面的小点 */
+        }
+    </style>
+</head>
+<body>
+    <div class="am-container">
+        <ul class="am-avg-lg-8 am-avg-md-6 am-avg-sm-4">
+            <li>
+                <img alt="" src="/Images/1.gif" class="am-thumbnail" /></li>
+            <li>
+                <img alt="" src="/Images/1.gif" class="am-thumbnail" /></li>
+            <li>
+                <img alt="" src="/Images/1.gif" class="am-thumbnail" /></li>
+            <li>
+                <img alt="" src="/Images/1.gif" class="am-thumbnail" /></li>
+            <li>
+                <img alt="" src="/Images/1.gif" class="am-thumbnail" /></li>
+            <li>
+                <img alt="" src="/Images/1.gif" class="am-thumbnail" /></li>
+            <li>
+                <img alt="" src="/Images/1.gif" class="am-thumbnail" /></li>
+            <li>
+                <img alt="" src="/Images/1.gif" class="am-thumbnail" /></li>
+            <li>
+                <img alt="" src="/Images/1.gif" class="am-thumbnail" /></li>
+            <li>
+                <img alt="" src="/Images/1.gif" class="am-thumbnail" /></li>
+            <li>
+                <img alt="" src="/Images/1.gif" class="am-thumbnail" /></li>
+        </ul>
+        <div style="height: 80px; width: 150px; border: 1px solid red">
+            <p class="am-text-default am-text-xs am-text-top">你好</p>
+        </div>
+        <div style="height: 80px; width: 150px; border: 1px solid red">
+            <p class="am-text-success am-text-sm am-text-right">你好</p>
+        </div>
+        <div style="height: 80px; width: 150px; border: 1px solid red">
+            <p class="am-text-primary am-text-default am-text-left">你好</p>
+        </div>
+        <div style="height: 80px; width: 150px; border: 1px solid red">
+            <p class="am-text-secondary am-text-lg am-text-bottom">你好</p>
+        </div>
+        <div style="height: 80px; width: 150px; border: 1px solid red">
+            <p class="am-text-warning am-text-xl am-text-middle">你好</p>
+        </div>
+        <div style="height: 80px; width: 150px; border: 1px solid red">
+            <p class="am-text-danger am-text-xxl am-text-center">你好</p>
+        </div>
+        <div style="height: 80px; width: 150px; border: 1px solid red">
+            <p class="am-text-danger am-text-xxxl">你好</p>
+        </div>
+    </div>
+    <ul>
+        <li class="am-show-lg-only">只有大于1024我才显出来</li>
+        <li class="am-show-md-only">只有中等我才显出来</li>
+        <li class="am-show-sm-only">只有小于680我才显出来</li>
+    </ul>
+
+    <button class="am-btn am-btn-primary am-radius am-btn-xl">点击</button>
+    <button class="am-btn am-btn-success am-round am-btn-sm">点击</button>
+    <button class="am-btn am-btn-warning am-active am-btn-lg">点击</button>
+    <button class="am-btn am-btn-secondary am-disabled am-btn-default">点击</button>
+    <button class="am-btn am-btn-danger am-btn-xs">点击</button>
+
+    <button class="am-btn am-btn-link">点击</button>
+    <button class="am-btn am-btn-default am-btn-block">点击</button>
+
+    <button class="am-btn am-btn-warning am-disabled"><i class="am-icon-spin"></i>点击</button>
+
+    <form class="am-form am-form-horizontal">
+        <div class="am-form-group">
+            <label for="TxtName" class="am-u-sm-3 am-form-label">姓名：</label>
+            <div class="am-u-sm-9">
+                <input type="text" id="TxtName" />
+            </div>
+        </div>
+        <div class="am-form-group">
+            <label for="TxtPwd" class="am-u-sm-3 am-form-label">密码：</label>
+            <div class="am-u-sm-9">
+                <input type="password" id="TxtPwd" />
+            </div>
+        </div>
+        <div class="am-form-group">
+            <div class="am-u-sm-offset-3 am-u-sm-9">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" />记住十万年
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="am-form-group">
+            <div class="am-u-sm-offset-3">
+                <button type="submit" class="am-btn am-btn-primary">提交</button>
+            </div>
+        </div>
+    </form>
+    <br />
+    <br />
+    <div class="am-scrollable-horizontal">
+        <table class="am-table am-text-nowrap am-table-bordered am-table-striped am-table-hover am-table-radius am-table-middle am-table-centered">
+            <thead>
+                <tr>
+                    <th>项目编号</th>
+                    <th>项目名称</th>
+                    <th>开发时间</th>
+                    <th>负责人</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="am-success">
+                    <td>001</td>
+                    <td>三峡大坝模拟管理</td>
+                    <td>2016/1/2</td>
+                    <td>刘大神</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td class="am-disabled">功夫熊猫电影</td>
+                    <td>2016/2/12</td>
+                    <td>挖煤大牛</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>没饿死的猫</td>
+                    <td>2016/6/8</td>
+                    <td class="am-danger">许许先生</td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td class="am-active">我来您这里</td>
+                    <td>2016/2/4</td>
+                    <td>家具杀手</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <ol class="am-breadcrumb">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">分类</a></li>
+        <li class="am-active">内容</li>
+    </ol>
+    <ol class="am-breadcrumb am-breadcrumb-slash">
+        <li><a href="#" class="am-icon-home">首页</a></li>
+        <li><a href="#">分类</a></li>
+        <li class="am-active">内容</li>
+    </ol>
+    <span class="am-badge">1gffffff</span>
+    <span class="am-badge am-badge-primary">2</span>
+    <code>fdsdsgafdsgfdgfd
+    </code>
+    <pre class="am-pre-scrollable">
+window.addEventListener('load', function() {
+    FastClick.attach(document.body);
+}, false);
+</pre>
+    <div class="am-btn-group">
+        <button type="button" class="am-btn am-btn-primary am-radius">点击</button>
+        <button type="button" class="am-btn am-btn-primary">点击</button>
+        <button type="button" class="am-btn am-btn-primary am-round">点击</button>
+    </div>
+    <div class="am-btn-toolbar">
+        <div class="am-btn-group">
+            <button type="button" class="am-btn am-btn-primary am-radius">点击</button>
+            <button type="button" class="am-btn am-btn-primary">点击</button>
+            <button type="button" class="am-btn am-btn-primary am-round">点击</button>
+        </div>
+        <div class="am-btn-group">
+            <button type="button" class="am-btn am-btn-primary am-radius">点击</button>
+            <button type="button" class="am-btn am-btn-primary">点击</button>
+            <button type="button" class="am-btn am-btn-primary am-round">点击</button>
+        </div>
+    </div>
+    下拉菜单
+    <div class="am-btn-group">
+        <button type="button" class="am-btn am-btn-success">下拉</button>
+        <div class="am-dropdown" data-am-dropdown>
+            <button class="am-btn am-btn-success am-dropdown-toggle" data-am-dropdown-toggle>
+                <span class="am-icon-caret-down"></span>
+            </button>
+            <ul class="am-dropdown-content">
+                <li class="am-dropdown-header">标题</li>
+                <li><a href="#">百度</a></li>
+                <li class="am-active"><a href="#">天猫</a></li>
+                <li class="am-disabled"><a href="#">腾讯</a></li>
+                <li class="am-divider"><a href="#">新浪</a></li>
+                <li><a href="#">途牛</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <a class="am-close am-close-alt am-close-spin" href="#">&times;</a>
+        <a class="am-close am-close-alt am-icon-times am-close-spin" href="#"></a>
+    </div>
+    <article class="am-comment">
+        <a href="#">
+            <img src="Images/1.gif" alt="" class="am-comment-avatar" /></a>
+        <div class="am-comment-main">
+            <header class="am-comment-hd">
+                <div class="am-comment-meta">
+                    <h3 class="am-comment-title">评论标题</h3>
+                    <a href="#" class="am-comment-author">某人</a>
+                    评论于<time datetime="2013-07-27T04:54:29-07:00" title="2013年7月27日 下午7:54 格林尼治标准时间+0800">2014-7-12 15:30</time>
+                </div>
+            </header>
+            <div class="am-comment-bd">
+                北京天气真的很揪心
+            </div>
+        </div>
+    </article>
+    <a href="##" class="am-icon-btn am-icon-twitter"></a>
+    <a href="##" class="am-icon-btn am-icon-facebook"></a>
+    <a href="##" class="am-icon-btn am-icon-github"></a>
+    <a href="##" class="am-icon-btn am-primary am-icon-qq"></a>
+    <a href="##" class="am-icon-btn am-secondary am-icon-drupal"></a>
+    <a href="##" class="am-icon-btn am-success am-icon-shield"></a>
+    <a href="##" class="am-icon-btn am-warning am-icon-warning"></a>
+    <a href="##" class="am-icon-btn am-danger am-icon-youtube"></a>
+
+    <!--Chrome 和 Firefox 下， display: inline-block; 或 display: block; 的元素才会应用旋转动画。-->
+    <div>
+        <i class="am-icon-spinner am-icon-spin"></i>
+        <i class="am-icon-refresh am-icon-spin"></i>
+        <i class="am-icon-circle-o-notch am-icon-spin"></i>
+        <i class="am-icon-cog am-icon-spin"></i>
+        <i class="am-icon-gear am-icon-spin"></i>
+    </div>
+
+    <div class="am-u-lg-6">
+        <div class="am-input-group">
+            <input type="text" class="am-form-field">
+            <span class="am-input-group-btn">
+                <button class="am-btn am-btn-default" type="button"><span class="am-icon-search">&nbsp;搜索</span></button>
+            </span>
+        </div>
+    </div>
+    <br />
+    <ul class="am-list">
+        <li>你好</li>
+        <li>你好</li>
+        <li>你好</li>
+        <li>你好</li>
+        <li>你好</li>
+    </ul>
+    <ul class="am-nav am-nav-tabs">
+        <li class="am-active"><a href="#" class="am-text-secondary">主页</a></li>
+        <li><a href="#">图片</a></li>
+        <li><a href="#">视频</a></li>
+        <li><a href="#">音乐</a></li>
+        <li><a href="#">其他</a></li>
+    </ul>
+
+    <ul class="am-nav am-nav-pills">
+        <li class="am-active"><a href="#">首页</a></li>
+        <li class="am-dropdown" data-am-dropdown>
+            <a class="am-dropdown-toggle" data-am-droup-toggle href="javascript:void(0);">资料<span class="am-icon-caret-down"></span>
+            </a>
+            <ul class="am-dropdown-content">
+                <li class="am-active"><a href="#">图片</a></li>
+                <li><a href="#">视频</a></li>
+                <li><a href="#">其他</a></li>
+            </ul>
+        </li>
+        <li><a href="#">分享</a></li>
+        <li><a href="#">反馈</a></li>
+    </ul>
+
+    <header class="am-topbar">
+        <h1 class="am-topbar-brand">
+            <a href="#">Amaze UI</a>
+        </h1>
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+        <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
+            <ul class="am-nav am-nav-pills am-topbar-nav">
+                <li class="am-active"><a href="#">首页</a></li>
+                <li><a href="#">项目</a></li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">下拉 <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li class="am-dropdown-header">标题</li>
+                        <li><a href="#">1. 去月球</a></li>
+                        <li class="am-active"><a href="#">2. 去火星</a></li>
+                        <li><a href="#">3. 还是回地球</a></li>
+                        <li class="am-disabled"><a href="#">4. 下地狱</a></li>
+                        <li class="am-divider"></li>
+                        <li><a href="#">5. 桥头一回首</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <form class="am-topbar-form am-topbar-left am-form-inline" role="search">
+                <div class="am-form-group">
+                    <input type="text" class="am-form-field am-input-sm" placeholder="搜索">
+                </div>
+            </form>
+
+            <div class="am-topbar-right">
+                <div class="am-dropdown" data-am-dropdown="{boundary: '.am-topbar'}">
+                    <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm am-dropdown-toggle" data-am-dropdown-toggle>其他 <span class="am-icon-caret-down"></span></button>
+                    <ul class="am-dropdown-content">
+                        <li><a href="#">注册</a></li>
+                        <li><a href="#">随便看看</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="am-topbar-right">
+                <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm">登录</button>
+            </div>
+        </div>
+
+    </header>
+    <ul class="am-pagination">
+        <li class="am-disabled"><a href="#">&laquo;</a></li>
+        <li class="am-active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">&raquo;</a></li>
+    </ul>
+
+    <section class="am-panel am-panel-primary">
+        <header class="am-panel-hd">
+            <h3 class="am-panel-title">面板标题</h3>
+        </header>
+        <div class="am-panel-bd">
+            面板内容
+        </div>
+        <footer class="am-panel-footer">面板脚本</footer>
+    </section>
+    <div class="am-progress am-progress-striped am-round am-active">
+        <div class="am-progress-bar" style="width: 60%">60%</div>
+        <div class="am-progress-bar am-progress-bar-warning" style="width: 40%">40%</div>
+    </div>
+    <div class="am-g">
+        <div class="am-u-sm-4">
+            <img class="am-thumbnail" src="/Images/1.gif" alt="" />
+        </div>
+
+        <div class="am-u-sm-4">
+            <a href="#" class="am-thumbnail">
+                <img src="/Images/1.gif" alt="" />
+            </a>
+        </div>
+
+        <div class="am-u-sm-4">
+            <figure class="am-thumbnail">
+                <img src="/Images/1.gif" alt="" />
+            </figure>
+        </div>
+    </div>
+    <div id="ani" class="am-animation-spin">
+        死去
+    </div>
+    <div class="am-article">
+        <div class="am-article-hd">
+            <h3 class="am-article-title">北京欢迎您</h3>
+            <p class="am-article-meta">王凯</p>
+        </div>
+        <div class="am-article-bd">
+            <div class="am-article-lead">你是谁，你在哪里</div>
+            <div>哭泣</div>
+        </div>
+        <div class="am-alert" data-am-alert>
+            <button type="button" class="am-btn am-btn-warning am-close am-icon-close"></button>           
+            <p>不哭</p>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <script src="/JS/jquery.min.js"></script>
+    <script src="/JS/amazeui.min.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+    window.onload = function () {
+
+    }
+</script>

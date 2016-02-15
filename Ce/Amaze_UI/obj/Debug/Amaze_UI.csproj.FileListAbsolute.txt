@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Amaze_UI\bin\Amaze_UI.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Amaze_UI\bin\Amaze_UI.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Amaze_UI\obj\Debug\Amaze_UI.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Amaze_UI\obj\Debug\Amaze_UI.dll
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Amaze_UI\obj\Debug\Amaze_UI.pdb
