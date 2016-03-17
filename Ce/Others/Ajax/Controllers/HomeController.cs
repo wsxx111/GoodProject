@@ -13,6 +13,7 @@ namespace Ajax.Controllers
 
         public ActionResult Index()
         {
+          
             return View();
         }
 

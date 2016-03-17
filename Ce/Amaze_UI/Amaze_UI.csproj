@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Css\amazeui.min.css" />
     <Content Include="Images\1.gif" />
+    <Content Include="Images\a.jpg" />
     <Content Include="Index.html" />
     <Content Include="JS\amazeui.min.js" />
     <Content Include="JS\jquery.min.js" />

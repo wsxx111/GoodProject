@@ -30,6 +30,9 @@
     <div>
         <img src="#" id="PrewPic" style="width:170px;" />
     </div>
+     <input type="file" capture="camera" accept="image/*" id="fileChoose" name="fileChoose" />
+    <input id="upload2" type="button" value="base64上传" />
+    <img src="#" id="PrewPicTwo" style="width:170px;" />
 </body>
 </html>
 <script type="text/javascript">
@@ -46,7 +49,8 @@
             'buttonText': '浏览',
             'fileTypeDesc': '打开图片',   //允许上传的文件类型的描述，在弹出的文件选择框里会显示
             'fileTypeExts': '*.png;*.jpg;*.bmp;*.gif',   //允许上传的文件类型，限制弹出文件选择框里能选择的文件
-            'fileSizeLimit': '71680KB',      //文件的极限大小，以字节为单位，0为不限制。1MB:1*1024*1024
+            //'fileSizeLimit': '71680KB',      //文件的极限大小，以字节为单位，0为不限制。1MB:1*1024*1024
+            'fileSizeLimit': '580KB',
             'method': 'post',            //和后台交互的方式：post/get
             'formData': {},       //JSON格式上传每个文件的同时提交到服务器的额外数据，可在’onUploadStart’事件中使用’settings’方法动态设置。
             'preventCaching': true,  //如果为true，则每次上传文件时自动加上一串随机字符串参数，防止URL缓存影响上传结果
@@ -84,16 +88,20 @@
                 //+ ' - 文件状态: ' + file.filestatus);
             },
             'onSelectError': function (file, errorCode, errorMsg) {     //当文件选定发生错误时触发
+                //if (errorCode==-110)
+                //{
+                //    alert('图片太大，请上传小于500kb的图片');
+                //}                
                 //alert('id: ' + file.id
                 //+ ' - 索引: ' + file.index
                 //+ ' - 文件名: ' + file.name
-                //+ ' - 文件大小: ' + file.size
+                //+ ' - 文件大小: ' + file.size               
                 //+ ' - 类型: ' + file.type
                 //+ ' - 创建日期: ' + file.creationdate
                 //+ ' - 修改日期: ' + file.modificationdate
                 //+ ' - 文件状态: ' + file.filestatus
                 //+ ' - 错误代码: ' + errorCode
-                //+ ' - 错误信息: ' + errorMsg);
+                //+ ' - 错误信息: ' + errorMsg);                
             },
             'onDialogClose': function (swfuploadifyQueue) {         //当文件选择对话框关闭时触发
                 //if (swfuploadifyQueue.filesErrored > 0) {
@@ -108,7 +116,7 @@
                 //    + swfuploadifyQueue.filesQueued
                 //    + '\n队列中的总文件数量:'
                 //    + swfuploadifyQueue.queueLength);
-                //}
+                //}             
             },
             'onUploadStart': function (file) {               //上传开始时触发（每个文件触发一次）
                 //alert('id: ' + file.id
@@ -136,24 +144,23 @@
                 //+ ' - 队列长度: ' + swfuploadifyQueue.queueLength);
             },
             'onUploadError': function (file, errorCode, errorMsg, errorString, swfuploadifyQueue) {   //上传文件出错是触发（每个出错文件触发一次）
-                alert('id: ' + file.id
-                + ' - 索引: ' + file.index
-                + ' - 文件名: ' + file.name
-                + ' - 文件大小: ' + file.size
-                + ' - 类型: ' + file.type
-                + ' - 创建日期: ' + file.creationdate
-                + ' - 修改日期: ' + file.modificationdate
-                + ' - 文件状态: ' + file.filestatus
-                + ' - 错误代码: ' + errorCode
-                + ' - 错误描述: ' + errorMsg
-                + ' - 简要错误描述: ' + errorString
-                + ' - 出错的文件数: ' + swfuploadifyQueue.filesErrored
-                + ' - 错误信息: ' + swfuploadifyQueue.errorMsg
-                + ' - 要添加至队列的数量: ' + swfuploadifyQueue.filesSelected
-                + ' - 添加至对立的数量: ' + swfuploadifyQueue.filesQueued
-                + ' - 队列长度: ' + swfuploadifyQueue.queueLength);
+                //alert('id: ' + file.id
+                //+ ' - 索引: ' + file.index
+                //+ ' - 文件名: ' + file.name
+                //+ ' - 文件大小: ' + file.size
+                //+ ' - 类型: ' + file.type
+                //+ ' - 创建日期: ' + file.creationdate
+                //+ ' - 修改日期: ' + file.modificationdate
+                //+ ' - 文件状态: ' + file.filestatus
+                //+ ' - 错误代码: ' + errorCode
+                //+ ' - 错误描述: ' + errorMsg
+                //+ ' - 简要错误描述: ' + errorString
+                //+ ' - 出错的文件数: ' + swfuploadifyQueue.filesErrored
+                //+ ' - 错误信息: ' + swfuploadifyQueue.errorMsg
+                //+ ' - 要添加至队列的数量: ' + swfuploadifyQueue.filesSelected
+                //+ ' - 添加至对立的数量: ' + swfuploadifyQueue.filesQueued
+                //+ ' - 队列长度: ' + swfuploadifyQueue.queueLength);              
             },
-
             'onUploadSuccess': function LoadFile(file, data, response) {
                 if (data !== "") {
                     var jsonobj = eval("(" + data + ")");
@@ -188,7 +195,7 @@
             'onClearQueue': function (queueItemCount) {//当调用函数cancel方法时触发，
                 //queueItemCount参数为被取消上传的文件数量。
                 alert('取消上传文件的数量：' + queueItemCount);
-            },            
+            },
             'onDestroy': function () {           //当destory方法被调用时触发
             },
             'onDisable': function () {           //当disable方法禁用Uploadify上传按钮时被调用时触发。
@@ -204,5 +211,55 @@
         $("#btnPicLoad").click(function () {
             $("#file_upload").uploadify("upload", "*");
         });
+
+
+        var base64img = null;
+        var isuploadSucc = true;
+        $('#fileChoose').change(function (e) {
+            var file = $(this)[0].files[0];
+            if (file) {
+                var reader = new FileReader();
+                reader.onload = function () {
+                    $("#editImg,#shareImg").attr('src', this.result);
+                    base64img = this.result;
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+
+        //第二种上传
+        $("#upload2").click(function () {
+            if (isuploadSucc) {
+                isuploadSucc = false;
+            }
+            else {
+                alert('图片正在上传，请稍后....');
+                return false;
+            }
+            if (!base64img) {
+                alert('请先选择图片！');
+                return false;
+            }
+            $.ajax({
+                url: '/UploadImg/Preview',
+                type: 'POST',
+                cache: false,
+                timeout: 60 * 60 * 1000,
+                dataType: "json",
+                data: { baseimg: base64img },
+                success: function (data) {
+                    if (data.Response.indexOf('http') > -1) {
+                        $("#PrewPicTwo").attr("src", data.Response);
+                        $('#fileChoose').val('');
+                    }
+                    isuploadSucc = true;
+                },
+                error: function () {
+                    isuploadSucc = true;
+                    $("#PrewPicTwo").attr("src", "");
+                }
+            });
+        });
+
     });
 </script>

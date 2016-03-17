@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\继承测试\继承测试\bin\Debug\继承测试.exe
+C:\Users\Administrator\Desktop\继承测试\继承测试\bin\Debug\继承测试.pdb
+C:\Users\Administrator\Desktop\继承测试\继承测试\obj\x86\Debug\继承测试.exe
+C:\Users\Administrator\Desktop\继承测试\继承测试\obj\x86\Debug\继承测试.pdb
+D:\学习资料\笔记\继承测试\继承测试\obj\x86\Debug\继承测试.exe
+D:\学习资料\笔记\继承测试\继承测试\obj\x86\Debug\继承测试.pdb
+D:\我的\学习资料\笔记\继承测试\继承测试\obj\x86\Debug\继承测试.exe
+D:\我的\学习资料\笔记\继承测试\继承测试\obj\x86\Debug\继承测试.pdb
+D:\我的\学习资料\笔记\继承测试\继承测试\bin\Debug\继承测试.exe
+D:\我的\学习资料\笔记\继承测试\继承测试\bin\Debug\继承测试.pdb

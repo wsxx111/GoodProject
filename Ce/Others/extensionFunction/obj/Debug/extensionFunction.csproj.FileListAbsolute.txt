@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\extensionFunction\bin\Debug\extensionFunction.exe
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\extensionFunction\bin\Debug\extensionFunction.pdb
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\extensionFunction\obj\Debug\extensionFunction.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\extensionFunction\obj\Debug\extensionFunction.exe
+C:\Users\user\Desktop\最新整合\GoodProject\Ce\Others\extensionFunction\obj\Debug\extensionFunction.pdb
